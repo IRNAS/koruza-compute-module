@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=R23 Old Footprint=AXIAL-0.3 New Footprint=RES0603
+Change Component Footprint: Designator=R26 Old Footprint=AXIAL-0.3 New Footprint=RES0603
+Change Component Footprint: Designator=R46 Old Footprint=AXIAL-0.3 New Footprint=RES0603
+Change Component Footprint: Designator=C15 Old Footprint=RAD-0.3 New Footprint=1206
+Change Component Footprint: Designator=C19 Old Footprint=RAD-0.3 New Footprint=1206
+Change Component Footprint: Designator=C18 Old Footprint=RAD-0.3 New Footprint=CAP0603
+Change Component Footprint: Designator=C49 Old Footprint=RAD-0.3 New Footprint=CAP0603
+Change Component Footprint: Designator=C1 Old Footprint=RAD-0.3 New Footprint=CAP0805
+Change Component Footprint: Designator=C3 Old Footprint=RAD-0.3 New Footprint=CAP0805
+Change Component Footprint: Designator=C8 Old Footprint=RAD-0.3 New Footprint=CAP0805
+Change Component Footprint: Designator=C9 Old Footprint=RAD-0.3 New Footprint=CAP0805
+Change Component Footprint: Designator=C14 Old Footprint=RAD-0.3 New Footprint=CAP0805
