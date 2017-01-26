@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=3V3 Pin=R17-2
+Removed Pin From Net: NetName=3V3 Pin=R18-2
+Removed Pin From Net: NetName=3V3 Pin=R19-2
+Removed Pin From Net: NetName=3V3 Pin=R22-2
+Removed Member From Class: ClassName=CAMERA_DIFF_100 Member=CAM1_CLK
+Removed Member From Class: ClassName=CAMERA_DIFF_100 Member=CAM1_GPIO
+Added Pin To Net: NetName=SFP_3V3 Pin=R17-2
+Added Pin To Net: NetName=SFP_3V3 Pin=R18-2
+Added Pin To Net: NetName=SFP_3V3 Pin=R19-2
+Added Pin To Net: NetName=SFP_3V3 Pin=R22-2
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH

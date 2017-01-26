@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=USB_HUB_P Pin=R48-1
+Removed Pin From Net: NetName=USB_SW_N Pin=R48-2
+Removed Pin From Net: NetName=USB_HUB_N Pin=R49-1
+Removed Pin From Net: NetName=USB_SW_P Pin=R49-2
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=R48
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=R49
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH

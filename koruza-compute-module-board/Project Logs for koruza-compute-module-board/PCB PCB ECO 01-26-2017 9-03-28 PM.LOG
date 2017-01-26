@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=POE_V+ Pin=TP5-1
+Removed Pin From Net: NetName=POE_V- Pin=TP6-1
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=TP5
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=TP6

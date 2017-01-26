@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=GND Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C43-1
+Change Differential Pair Positive Net Name : Old Net Name=USB_HUB_P New Net Name=USB_HUB_P
+Change Differential Pair Negative Net Name : Old Net Name=USB_HUB_N New Net Name=USB_HUB_N
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH

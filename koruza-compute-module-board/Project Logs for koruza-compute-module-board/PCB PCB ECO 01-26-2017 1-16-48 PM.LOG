@@ -1,0 +1,8 @@
+Change Net Name : Old Net Name=NetC23_1 New Net Name=ETH_TX_P
+Change Net Name : Old Net Name=NetC24_1 New Net Name=ETH_TX_N
+Change Net Name : Old Net Name=NetC25_1 New Net Name=ETH_RX_P
+Change Net Name : Old Net Name=NetC26_1 New Net Name=ETH_RX_N
+Added Differential Pair: Name=ETH_RX
+Added Differential Pair: Name=ETH_TX
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH

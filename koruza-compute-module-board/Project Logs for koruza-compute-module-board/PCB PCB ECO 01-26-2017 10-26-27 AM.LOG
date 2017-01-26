@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=C51-1
+Removed Pin From Net: NetName=5V Pin=C51-2
+Removed Pin From Net: NetName=5V Pin=CON5-1
+Removed Pin From Net: NetName=GND Pin=CON5-4
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=C51
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=CON5
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH

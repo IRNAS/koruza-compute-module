@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=5V Pin=C10-2
+Removed Pin From Net: NetName=5V Pin=U2-3
+Added Pin To Net: NetName=+9V Pin=C10-2
+Added Pin To Net: NetName=+9V Pin=U2-3
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH

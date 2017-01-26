@@ -1,0 +1,11 @@
+Added Component: Designator=P4(IDC10)
+Added Pin To Net: NetName=VCCT Pin=P4-1
+Added Pin To Net: NetName=VCCR Pin=P4-2
+Added Pin To Net: NetName=GND Pin=P4-3
+Added Pin To Net: NetName=SFP_LOS/GPIO16/CTS0 Pin=P4-4
+Added Pin To Net: NetName=SFP_RATE_SEL Pin=P4-5
+Added Pin To Net: NetName=SFP_TX_DISB Pin=P4-7
+Added Pin To Net: NetName=SFP_SDA/GPIO2/SDA1 Pin=P4-8
+Added Pin To Net: NetName=SFP_SCL/GPIO3/SCL1 Pin=P4-9
+Added Pin To Net: NetName=SFP_PRESENT/GPIO7 Pin=P4-10
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P4 Header 5X2A

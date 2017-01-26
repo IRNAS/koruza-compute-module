@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=3V3 Pin=C18-2
+Removed Pin From Net: NetName=3V3 Pin=CON2-15
+Removed Pin From Net: NetName=3V3 Pin=CON2-15
+Added Component: Designator=R48(RES0603)
+Added Pin To Net: NetName=3V3 Pin=R48-2
+Added Pin To Net: NetName=NetC18_2 Pin=C18-2
+Added Pin To Net: NetName=NetC18_2 Pin=CON2-15
+Added Pin To Net: NetName=NetC18_2 Pin=CON2-15
+Added Pin To Net: NetName=NetC18_2 Pin=R48-1
+Added Net: Name=NetC18_2
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R48 0R
