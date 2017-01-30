@@ -1,0 +1,164 @@
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=+9V Pin=C10-2
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=CON3-5
+Removed Pin From Net: NetName=GND Pin=P4-3
+Removed Pin From Net: NetName=SFP_SDA/GPIO2/SDA1 Pin=R18-1
+Removed Pin From Net: NetName=SFP_SCL/GPIO3/SCL1 Pin=R19-1
+Removed Pin From Net: NetName=GND Pin=R28-2
+Removed Pin From Net: NetName=GND Pin=R29-2
+Removed Pin From Net: NetName=GND Pin=U2-1
+Removed Pin From Net: NetName=+9V Pin=U2-3
+Removed Pin From Net: NetName=GND Pin=U5-65
+Added Pin To Net: NetName=GND Pin=CON3-4
+Added Pin To Net: NetName=5V Pin=P4-1
+Added Pin To Net: NetName=CD1_SCL Pin=P4-6
+Added Pin To Net: NetName=CD1_SDA Pin=P4-7
+Added Pin To Net: NetName=GND Pin=P4-10
+Added Pin To Net: NetName=SFP_LOS_1/GPIO16/CTS0 Pin=CON1-57
+Added Pin To Net: NetName=SFP_LOS_1/GPIO16/CTS0 Pin=P4-3
+Added Net: Name=SFP_LOS_1/GPIO16/CTS0
+Added Pin To Net: NetName=SFP_LOS_2/GPIO43 Pin=CON1-78
+Added Pin To Net: NetName=SFP_LOS_2/GPIO43 Pin=P4-4
+Added Net: Name=SFP_LOS_2/GPIO43
+Added Pin To Net: NetName=SFP_PRESENT_1/GPIO7 Pin=CON1-23
+Added Pin To Net: NetName=SFP_PRESENT_1/GPIO7 Pin=P4-2
+Added Net: Name=SFP_PRESENT_1/GPIO7
+Added Pin To Net: NetName=SFP_PRESENT_2/GPIO42 Pin=CON1-76
+Added Pin To Net: NetName=SFP_PRESENT_2/GPIO42 Pin=P4-5
+Added Net: Name=SFP_PRESENT_2/GPIO42
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C1 47uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C2 10uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C3 47uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C4 10uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C5 100nF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C6 10uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C7 10uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C8 47uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C9 1uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C14 1uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C15 220pF/3kV
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C16 10uF/50V
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C17 10uF/50V
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C18 100nF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C19 220pF/3kV
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C20 220uF/50V
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C21 Cap2
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C22 10uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C23 20pF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C24 20pF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C25 20pF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C26 20pF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C27 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C28 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C29 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C30 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C31 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C32 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C33 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C34 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C35 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C36 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C37 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C38 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C39 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C40 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C41 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C42 33pF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C43 33pF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C44 1uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C45 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C46 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C47 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C48 10uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C49 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C50 10uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component CON1 DDR2 SODIMM
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component CON2 Camera
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component CON3 USB Type A RA TH
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component CON4 USB Type A RA TH
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component D1 LED0
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component D2 LED0
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component L1 SRN4018-4R7M
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component L2 SRN4018-4R7M
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component L3 10uH
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component L4 Inductor
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component L5 Inductor
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P1 Header 3H
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P2 Header 2
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P3 Header 3X2A
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P4 Header 5X2A
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P5 Header 15X2A
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P6 Header 5X2A
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component Q1 MOSFET-N
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component Q2 MOSFET-N
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component Q3 MOSFET-N
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R1 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R2 470R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R3 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R4 100K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R5 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R6 100K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R7 100K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R8 470R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R9 47K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R10 100K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R11 100K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R12 100K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R13 1K8
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R14 1K8
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R15 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R16 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R20 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R21 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R23 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R26 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R27 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R30 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R31 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R32 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R33 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R34 49.9R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R35 49.9R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R36 49.9R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R37 49.9R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R38 10R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R39 10K
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R40 1K
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R41 1K
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R42 12K4
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R43 10K
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R44 12K
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R45 10K
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R46 47K
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R47 47K
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R48 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component T1 Ethernet RJ45
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP1 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP2 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP4 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP7 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP8 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP9 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP10 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP11 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component TP12 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP13 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP14 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP15 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP16 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP17 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP18 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP19 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP20 TEST_POINT
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component TP22 TEST_POINT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U1 PAM2306AYPKE
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U3 ITX2409SA
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U4 SPM15-050-Q12P-C
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U5 LAN9512
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U6 FSUSB42UMX
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component Y1 25MHz
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH

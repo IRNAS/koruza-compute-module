@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=CON3-5
+Added Component: Designator=C16(1206)
+Added Pin To Net: NetName=POE_V- Pin=C16-1
+Added Pin To Net: NetName=POE_V+ Pin=C16-2
+Added Pin To Net: NetName=GND Pin=CON3-4
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C16 10uF/50V

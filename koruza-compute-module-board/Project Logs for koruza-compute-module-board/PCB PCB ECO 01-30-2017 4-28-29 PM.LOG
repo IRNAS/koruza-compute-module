@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=CON1-3
+Removed Pin From Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=CON1-5
+Added Pin To Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=CON1-3
+Added Pin To Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=CON1-5

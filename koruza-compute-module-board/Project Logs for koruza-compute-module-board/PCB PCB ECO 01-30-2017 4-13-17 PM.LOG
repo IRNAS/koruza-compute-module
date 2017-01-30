@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=CAM1_GPIO Pin=CON1-15
+Removed Pin From Net: NetName=CAM1_CLK Pin=CON1-17
+Removed Pin From Net: NetName=GND Pin=R11-1
+Removed Pin From Net: NetName=GPIO45/SCL0/SCL1 Pin=R11-2
+Removed Pin From Net: NetName=GND Pin=R12-1
+Removed Pin From Net: NetName=GPIO44/SDA0/SDA1 Pin=R12-2
+Change Component Comment : Designator=R11 Old Comment=100K New Comment=1K8
+Change Component Comment : Designator=R12 Old Comment=100K New Comment=1K8
+Added Pin To Net: NetName=CAM1_GPIO Pin=CON1-9
+Added Pin To Net: NetName=CAM1_CLK Pin=CON1-11
+Added Pin To Net: NetName=GPIO44/SDA0/SDA1 Pin=P4-6
+Added Pin To Net: NetName=GPIO45/SCL0/SCL1 Pin=P4-7
+Added Pin To Net: NetName=GPIO44/SDA0/SDA1 Pin=R11-1
+Added Pin To Net: NetName=3V3 Pin=R11-2
+Added Pin To Net: NetName=GPIO45/SCL0/SCL1 Pin=R12-1
+Added Pin To Net: NetName=3V3 Pin=R12-2
+Change Net Name : Old Net Name=GPIO44/SDA0/SDA1 New Net Name=SFP/GPIO44/SDA1
+Change Net Name : Old Net Name=GPIO45/SCL0/SCL1 New Net Name=SFP/GPIO45/SCL1
+Added Pin To Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=CON1-5
+Added Pin To Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=CON2-14
+Added Pin To Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=CON2-14
+Added Pin To Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=P4-8
+Added Pin To Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=R14-1
+Added Net: Name=CAM1/SFP/GPIO0/SDA0
+Added Pin To Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=CON1-3
+Added Pin To Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=CON2-13
+Added Pin To Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=CON2-13
+Added Pin To Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=P4-9
+Added Pin To Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=R13-1
+Added Net: Name=CAM1/SFP/GPIO1/SCL0
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH
