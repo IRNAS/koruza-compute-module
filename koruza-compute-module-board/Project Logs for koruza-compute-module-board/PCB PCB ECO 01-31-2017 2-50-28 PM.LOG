@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=CAM1_GPIO Pin=CON1-9
+Removed Pin From Net: NetName=CAM1_CLK Pin=CON1-11
+Removed Pin From Net: NetName=CAM1/SFP/GPIO0/SDA0 Pin=P4-8
+Removed Pin From Net: NetName=CAM1/SFP/GPIO1/SCL0 Pin=P4-9
+Added Pin To Net: NetName=CAM1_GPIO Pin=CON1-15
+Added Pin To Net: NetName=CAM1_CLK Pin=CON1-17
+Change Net Name : Old Net Name=CAM1/SFP/GPIO0/SDA0 New Net Name=CAM1/GPIO0/SDA0
+Change Net Name : Old Net Name=CAM1/SFP/GPIO1/SCL0 New Net Name=CAM1/GPIO1/SCL0
+Added Pin To Net: NetName=SFP/GPIO2/SDA1 Pin=CON1-9
+Added Pin To Net: NetName=SFP/GPIO2/SDA1 Pin=P4-8
+Added Net: Name=SFP/GPIO2/SDA1
+Added Pin To Net: NetName=SFP/GPIO3/SCL1 Pin=CON1-11
+Added Pin To Net: NetName=SFP/GPIO3/SCL1 Pin=P4-9
+Added Net: Name=SFP/GPIO3/SCL1
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component L4 Inductor
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U1 PAM2306AYPKE
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U3 ITX2409SA
