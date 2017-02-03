@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [koruza-compute-module-board.PrjPcb]
+   Generated File[PCB-RoundHoles.TXT]
+   Generated File[PCB-SlotHoles.TXT]
+   Generated File[PCB.DRL]
+   Generated File[PCB.LDP]
+   Generated File[PCB.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 1:13:15 PM On 02/03/2017
