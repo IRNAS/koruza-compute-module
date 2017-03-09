@@ -4,7 +4,10 @@
 
 Main hardwarw board for the Koruza unit, based on the Raspberry Pi Compute Module.
 
-Currently under development, for all information see the [schematic PDF file](https://github.com/IRNAS/koruza-compute-module/blob/board_0.2/koruza-compute-module-board/koruza-compute-module-board.pdf).
+Currently under development, for all information see the [schematic PDF file](https://github.com/IRNAS/koruza-compute-module/blob/board_0.2/koruza-compute-module-board/koruza-compute-module-board.pdf).Produced board versions can be found in the [release section](https://github.com/IRNAS/koruza-compute-module/releases) of the repository.
+
+**Latest release: [v0.2](https://github.com/IRNAS/koruza-compute-module/releases/tag/v0.2)**
+
 
 All comments and suggestions can be added to the [Issues](https://github.com/IRNAS/koruza-compute-module/issues) section of the repo. For additional details see the [Issue](https://github.com/IRNAS/koruza-compute-module/issues) section or contact me at vojislav@irnas.eu
 
