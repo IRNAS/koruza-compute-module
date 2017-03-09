@@ -1,3 +1,5 @@
+![alt tag](https://github.com/IRNAS/koruza-compute-module/blob/board_0.2/pics/koruza-logo-colour-med.png)
+
 # Koruza compute module
 
 Main hardwarw board for the Koruza unit, based on the Raspberry Pi Compute Module.
