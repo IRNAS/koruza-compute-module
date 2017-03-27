@@ -1,9 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 3:26:34 PM On 03/15/2017
+
 Output: Bill of Materials
 Type  : BOM
-From  : Variant [[No Variations]] of Project [koruza-compute-module-board.PrjPcb]
+From  : Project [koruza-compute-module-board.PrjPcb]
+   Generated File[Bill of Materials-koruza-compute-module-board.csv]
 
 
-Files Generated   : 0
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 2:59:35 PM On 02/07/2017
+Finished Output Generation At 3:27:39 PM On 03/15/2017
