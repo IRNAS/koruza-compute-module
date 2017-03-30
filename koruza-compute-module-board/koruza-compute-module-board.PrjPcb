@@ -147,7 +147,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -376,6 +376,22 @@ DItemRevisionGUID=
 [GeneratedDocument21]
 DocumentPath=Project Outputs for koruza-compute-module-board\PCB.RUL
 DItemRevisionGUID=
+
+[Parameter1]
+Name=Title
+Value=Koruza-CM
+
+[Parameter2]
+Name=Website
+Value=www.koruza.net
+
+[Parameter3]
+Name=Version
+Value=v0.3
+
+[Parameter4]
+Name=Company
+Value=Koruza
 
 [Configuration1]
 Name=Default Configuration
