@@ -378,20 +378,20 @@ DocumentPath=Project Outputs for koruza-compute-module-board\PCB.RUL
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Title
-Value=Koruza-CM
+Name=Company
+Value=Koruza
 
 [Parameter2]
-Name=Website
-Value=www.koruza.net
+Name=ProjectTitile
+Value=Koruza-CM
 
 [Parameter3]
 Name=Version
 Value=v0.3
 
 [Parameter4]
-Name=Company
-Value=Koruza
+Name=Website
+Value=www.koruza.net
 
 [Configuration1]
 Name=Default Configuration
