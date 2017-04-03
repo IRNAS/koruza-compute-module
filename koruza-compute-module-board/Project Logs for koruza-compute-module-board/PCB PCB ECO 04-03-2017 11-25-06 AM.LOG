@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=GND Pin=P1-1
+Removed Pin From Net: NetName=VBUSB Pin=P1-3
+Removed Pin From Net: NetName=GND Pin=P4-1
+Removed Pin From Net: NetName=5V Pin=P4-3
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=P1
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=P4
+Added Component: Designator=MH2(MH_7.4MMD_3.2MMD_NON_COPPER_NPTH)
+Added Component: Designator=P?(HDR2X3H)
+Added Pin To Net: NetName=5V Pin=P?-1
+Added Pin To Net: NetName=VBUSB Pin=P?-2
+Added Pin To Net: NetName=GND Pin=P?-5
+Added Pin To Net: NetName=GND Pin=P?-6
+Added Pin To Net: NetName=LED_LING_PIN Pin=LED1-4
+Added Pin To Net: NetName=LED_LING_PIN Pin=P?-3
+Added Pin To Net: NetName=LED_LING_PIN Pin=R21-1
+Added Net: Name=LED_LING_PIN
+Added Pin To Net: NetName=NetP?_4 Pin=P?-4
+Added Pin To Net: NetName=NetP?_4 Pin=Q1-2
+Added Pin To Net: NetName=NetP?_4 Pin=R9-2
+Added Net: Name=NetP?_4
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component MH2 MH_7.4MMNC_3.2MMD
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P? Header 3X2H

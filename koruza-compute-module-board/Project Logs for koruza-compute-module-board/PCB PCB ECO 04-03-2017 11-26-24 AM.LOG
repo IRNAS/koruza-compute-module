@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=5V Pin=P?-1
+Removed Pin From Net: NetName=VBUSB Pin=P?-2
+Removed Pin From Net: NetName=LED_LING_PIN Pin=P?-3
+Added Pin To Net: NetName=VBUSB Pin=P?-1
+Added Pin To Net: NetName=5V Pin=P?-2
+Added Pin To Net: NetName=LED_LING_PIN Pin=P?-4
+Added Pin To Net: NetName=NetP?_3 Pin=P?-3
+Added Pin To Net: NetName=NetP?_3 Pin=Q1-2
+Added Pin To Net: NetName=NetP?_3 Pin=R9-2
+Added Net: Name=NetP?_3
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH
+Added Room: Name=PAGE4 - SFP
