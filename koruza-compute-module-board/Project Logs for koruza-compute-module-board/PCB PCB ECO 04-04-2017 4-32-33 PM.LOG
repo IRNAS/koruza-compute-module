@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SFP/GPIO44/SDA1 Pin=R11-1
+Removed Pin From Net: NetName=3V3 Pin=R11-2
+Removed Pin From Net: NetName=SFP/GPIO45/SCL1 Pin=R12-1
+Removed Pin From Net: NetName=3V3 Pin=R12-2
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R11
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R12

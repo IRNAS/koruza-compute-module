@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=RST/GPIO18 Pin=TP3-1
+Removed Pin From Net: NetName=TXD0/GPIO14 Pin=TP7-1
+Removed Pin From Net: NetName=RXD0/GPIO15 Pin=TP8-1
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=TP3
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=TP7
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=TP8

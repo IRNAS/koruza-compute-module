@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ETH_TX_N Pin=TP13-1
+Removed Pin From Net: NetName=ETH_TX_P Pin=TP14-1
+Removed Pin From Net: NetName=ETH_RX_N Pin=TP15-1
+Removed Pin From Net: NetName=ETH_RX_P Pin=TP16-1
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=TP13
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=TP14
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=TP15
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=TP16
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U5 LAN9512-JZX
