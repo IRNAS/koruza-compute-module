@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=SFP_3V3 Pin=C50-2
+Removed Pin From Net: NetName=SFP_3V3 Pin=C51-2
+Removed Pin From Net: NetName=SFP_3V3 Pin=U7-2
+Removed Pin From Net: NetName=SFP_3V3 Pin=U7-6
+Removed Pin From Net: NetName=SFP_3V3 Pin=U7-8
+Added Pin To Net: NetName=3V3 Pin=C50-2
+Added Pin To Net: NetName=3V3 Pin=C51-2
+Added Pin To Net: NetName=3V3 Pin=U7-2
+Added Pin To Net: NetName=3V3 Pin=U7-6
+Added Pin To Net: NetName=3V3 Pin=U7-8
