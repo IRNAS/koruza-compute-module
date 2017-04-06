@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for koruza-compute-module-board
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -259,40 +259,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
-DocumentPath=CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document15]
-DocumentPath=CAMtastic2.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for koruza-compute-module-board\Design Rule Check - PCB.html
 DItemRevisionGUID=
@@ -306,75 +272,155 @@ DocumentPath=Project Outputs for koruza-compute-module-board\PCB-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.DRL
+DocumentPath=Project Outputs for koruza-compute-module-board\NC Drill\PCB.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.DRR
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.EXTREP
+DocumentPath=Project Outputs for koruza-compute-module-board\NC Drill\PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.G1
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBL
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBO
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBP
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.G1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBS
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.G1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GKO
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GM1
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GP1
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTL
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTO
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTP
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTS
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.LDP
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for koruza-compute-module-board\PCB.REP
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GM29
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for koruza-compute-module-board\NC Drill\PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for koruza-compute-module-board\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for koruza-compute-module-board\Gerber\PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument40]
 DocumentPath=Project Outputs for koruza-compute-module-board\PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for koruza-compute-module-board\NC Drill\PCB.TXT
 DItemRevisionGUID=
 
 [Parameter1]
@@ -439,7 +485,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for koruza-compute-module-board
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -577,7 +623,7 @@ OutputDefault1=0
 Name=Documentation Outputs
 Description=
 TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=0|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
 OutputDocumentPath1=
