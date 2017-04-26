@@ -15,14 +15,14 @@ If the RPI 2B/3B is configured:
 7. Now plug the host machine into the Compute Module IO board USB slave port (J15) and power the CMIO board on. The rpiboot tool will discover the Compute Module and send boot code to allow access to the eMMC. 
 8. On RPI 2B/3B: `cd ..`
 9. On RPI 2B/3B: `cd image`
-10. On RPI 2B/3B: `sudo dd if=image_name.img of=/dev/sda bs=4MiB` Note the following command may take some time to complete, depending on the size of the image.
+10. On RPI 2B/3B: `sudo dd if=image_name.img of=/dev/sda bs=4MiB` Note the following command may take some time to complete, depending on the size of the image. verbose command option: `sudo dd if=image_name.img | pv -s 4G | sudo dd of=/dev/sda bs=4MiB`
 11. Make sure J4 (USB SLAVE BOOT ENABLE) is set to the disabled position and/or nothing is plugged into the USB slave port. Power cycling the IO board should now result in the Compute Module booting from eMMC.
 
 *****
 If the RPI 2B/3B is NOT configured:
 
 5. On RPI 2B/3B: `sudo apt-get update`
-6. On RPI 2B/3B: `sudo apt-get install git`
+6. On RPI 2B/3B: `sudo apt-get install git pv`
 7. Git may produce an error if the date is not set correctly. On a Raspberry Pi, enter the following to correct this: `sudo date MMDDhhmm` where MM is the month, DD is the date, and hh and mm are hours and minutes respectively.
 8. On RPI 2B/3B: `git clone --depth=1 https://github.com/raspberrypi/usbboot`
 9. On RPI 2B/3B: `cd usbboot`
