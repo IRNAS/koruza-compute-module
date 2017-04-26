@@ -6,8 +6,10 @@ The Compute Module has an on-board eMMC device connected to the primary SD card 
 2. Set the J4 jumper (USB SLAVE BOOT ENABLE) on the RPI CM IO board to the EN.
 3. Plug the micro USB power into the RPI 2B/3B. 
 4. SSH to the RPI 2B/3B
+
 *****
 If the RPI 2B/3B is configured:
+
 5. On RPI 2B/3B: `cd usbboot`
 6. On RPI 2B/3B: `sudo ./rpiboot`
 7. Now plug the host machine into the Compute Module IO board USB slave port (J15) and power the CMIO board on. The rpiboot tool will discover the Compute Module and send boot code to allow access to the eMMC. 
@@ -18,6 +20,7 @@ If the RPI 2B/3B is configured:
 
 *****
 If the RPI 2B/3B is NOT configured:
+
 5. On RPI 2B/3B: `sudo apt-get update`
 6. On RPI 2B/3B: `sudo apt-get install git`
 7. Git may produce an error if the date is not set correctly. On a Raspberry Pi, enter the following to correct this: `sudo date MMDDhhmm` where MM is the month, DD is the date, and hh and mm are hours and minutes respectively.
