@@ -33,3 +33,13 @@ If the RPI 2B/3B is NOT configured:
 If you have problems configuring the RPI CM please check the [link][link1].
 
 [link1]: https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md
+
+# RPI CM installation post flash
+1. Run `sudo raspi-config` and expand the filesystem
+2. Run `sudo apt-ger update`
+3. Run `sudo apt-get upgrade`
+4. Copy koruza package on the unit
+4. Run `sudo dpkg -i <koruza package>`
+4. Run `sudo apt-get -f install`
+4. Run `sudo dpkg -i <koruza package>`
+4. Upgrade mcu firmware `sudo mcu-upgrade-firmware master`
