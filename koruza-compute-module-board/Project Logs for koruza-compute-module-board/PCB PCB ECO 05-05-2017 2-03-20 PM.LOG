@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=USB_SW_P Pin=R18-1
+Added Pin To Net: NetName=USB_SW_P Pin=U6-3
+Added Net: Name=USB_SW_P
+Change Differential Pair Positive Net Name : Old Net Name=USB_SW_N New Net Name=USB_SW_P

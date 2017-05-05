@@ -1,0 +1,520 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD16\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">05/05/2017</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3:03:11 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:03</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc" class="file"><acronym title="C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc">C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">62</td></tr>
+</table>
+</td>
+</table><a name="IDRIONEHHPPNLTKNJXNOCZE53CJFR1AJYQN52L2ZHRCHMMBCPLRILF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOAXJPCF3DUF4HPWLQ4EADF3U2P3NOWBDFEMFODJPX51HZXM2T14O">Matched Lengths(Tolerance=0.254mm) (InDifferentialPairClass('CAMERA_DIFF'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQLZDFMHCJM5MGAZKX35ZOUOFADEXJ10RAKNCUIMHKQ4HX4YVK3FF">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDT0V2GZC4LS21FNQKO1R3PNHCUHVM45TZA05J3FDODAEGTZDXNG">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZL4VLCDT2JTODQRSRO3PBU1SAGQ00BLMRO20MEDBXUQX0FNTRM2E">Silk to Silk (Clearance=0.101mm) (All),(All)</a></td>
+<td class="column2">62</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDC53DFG3OYGJSKDSNJ4S314O3MEYPZPTTWKUDMJIXFG30KX3VZ4T">Silk To Solder Mask (Clearance=0mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDV5Z5GUBPNNW3CUA4MXPSAYD3GEBIQRBL4HQ2RALFOUHSYR4FFH2O">Minimum Solder Mask Sliver (Gap=0.005mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTODLRLD0DE2TFZ15RXSUB0GHAKC5LUNFPSZLSSCHE45CMMHXLAFK">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCBJJSTJTDE3QOVNMDOX0WXMEMSV5UA2H25EZWLREZEQZISUJFLM">Hole Size Constraint (Min=0.2mm) (Max=8mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVUHC1HXZRIKHEQN4XTT23WJ0WHFKKBPB3WAJZHDTMKLJUKHX2QC">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGPOVUZEGWLKAFTPO0PXKWTYGEOFB510AQSKTFYGW24LGCBEHQH1">Width Constraint (Min=0.152mm) (Max=3mm) (Preferred=0.203mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWJQOSP3MOS5SLHZRRRKCYCOXCXAJTAB5PSXK0B5K2ML3E20TWVC">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=2) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1EP3O2JYRDT0DMQY3YCJPZFPE2X0IZVOVG5H1J3IEG1PYC5YKTE">Clearance Constraint (Gap=0.152mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0OASD3T1HUGVMEVNYB1OASJZONRL2AJWDRP33Z0QQXXZGXC04AN">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFAFFCD2BTWXMLL32VULOXX3IWCD040FSHF01QVXPPRWHA5TSBMP">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">62</td>
+</tr>
+</table><br><a name="IDZL4VLCDT2JTODQRSRO3PBU1SAGQ00BLMRO20MEDBXUQX0FNTRM2E"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.101mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8092.388mil|Location2.X=8096.039mil|Location1.Y=2139.374mil|Location2.Y=2143.025mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8092.388mil|Location2.X=8096.039mil|Location1.Y=2139.374mil|Location2.Y=2143.025mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C8" (52.197mm,22.669mm) on Top Overlay And Track (12.577mm,23.594mm)(84.577mm,23.594mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8148.155mil|Location2.X=8151.805mil|Location1.Y=2139.374mil|Location2.Y=2143.025mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8148.155mil|Location2.X=8151.805mil|Location1.Y=2139.374mil|Location2.Y=2143.025mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "R4" (54.547mm,22.669mm) on Top Overlay And Track (12.577mm,23.594mm)(84.577mm,23.594mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9761.009mil|Location2.X=9764.66mil|Location1.Y=2253.661mil|Location2.Y=2257.312mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9761.009mil|Location2.X=9764.66mil|Location1.Y=2253.661mil|Location2.Y=2257.312mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "15" (96.763mm,27.358mm) on Top Overlay And Track (95.513mm,-4.042mm)(95.513mm,28.978mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11608.155mil|Location2.X=11611.805mil|Location1.Y=2825.064mil|Location2.Y=2828.715mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11608.155mil|Location2.X=11611.805mil|Location1.Y=2825.064mil|Location2.Y=2828.715mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C58" (142.24mm,41.021mm) on Top Overlay And Track (142.43mm,39.37mm)(142.43mm,40.894mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11679.369mil|Location2.X=11683.02mil|Location1.Y=2825.064mil|Location2.Y=2828.715mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11679.369mil|Location2.X=11683.02mil|Location1.Y=2825.064mil|Location2.Y=2828.715mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C58" (142.24mm,41.021mm) on Top Overlay And Track (142.43mm,40.894mm)(145.225mm,40.894mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10264.704mil|Location2.X=10269.931mil|Location1.Y=2681.577mil|Location2.Y=2686.804mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10264.704mil|Location2.X=10269.931mil|Location1.Y=2681.577mil|Location2.Y=2686.804mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "C42" (108.458mm,36.703mm) on Top Overlay And Track (108.204mm,34.798mm)(108.204mm,37.592mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.462mil|Location2.X=10021.688mil|Location1.Y=2601.082mil|Location2.Y=2606.309mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.462mil|Location2.X=10021.688mil|Location1.Y=2601.082mil|Location2.Y=2606.309mil|Absolute=True">Silk To Silk Clearance Constraint: (0.008mm &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (101.918mm,33.909mm)(101.918mm,35.433mm) on Top Overlay Silk Text to Silk Clearance [0.008mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.753mil|Location2.X=10022.708mil|Location1.Y=2603.523mil|Location2.Y=2613.133mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.753mil|Location2.X=10022.708mil|Location1.Y=2603.523mil|Location2.Y=2613.133mil|Absolute=True">Silk To Silk Clearance Constraint: (0.041mm &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (99.124mm,35.433mm)(101.918mm,35.433mm) on Top Overlay Silk Text to Silk Clearance [0.041mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10055.984mil|Location2.X=10063.049mil|Location1.Y=2601.722mil|Location2.Y=2609.106mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10055.984mil|Location2.X=10063.049mil|Location1.Y=2601.722mil|Location2.Y=2609.106mil|Absolute=True">Silk To Silk Clearance Constraint: (0.079mm &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (103.124mm,35.242mm)(105.918mm,35.242mm) on Top Overlay Silk Text to Silk Clearance [0.079mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2607.118mil|Location2.Y=2610.768mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2607.118mil|Location2.Y=2610.768mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (103.124mm,35.242mm)(103.124mm,36.767mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2658.627mil|Location2.Y=2662.278mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2658.627mil|Location2.Y=2662.278mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (103.124mm,36.767mm)(105.918mm,36.767mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.669mil|Location2.X=10022.625mil|Location1.Y=2666.057mil|Location2.Y=2675.667mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.669mil|Location2.X=10022.625mil|Location1.Y=2666.057mil|Location2.Y=2675.667mil|Absolute=True">Silk To Silk Clearance Constraint: (0.037mm &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (99.124mm,37.02mm)(101.918mm,37.02mm) on Top Overlay Silk Text to Silk Clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9995.881mil|Location2.X=10001.107mil|Location1.Y=2672.677mil|Location2.Y=2677.903mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9995.881mil|Location2.X=10001.107mil|Location1.Y=2672.677mil|Location2.Y=2677.903mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "R29" (102.299mm,37.275mm) on Top Overlay And Track (99.124mm,37.02mm)(101.918mm,37.02mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.462mil|Location2.X=10021.688mil|Location1.Y=2622.073mil|Location2.Y=2627.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.462mil|Location2.X=10021.688mil|Location1.Y=2622.073mil|Location2.Y=2627.299mil|Absolute=True">Silk To Silk Clearance Constraint: (0.008mm &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (101.918mm,35.496mm)(101.918mm,37.02mm) on Top Overlay Silk Text to Silk Clearance [0.008mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10012.367mil|Location2.X=10017.593mil|Location1.Y=2672.677mil|Location2.Y=2677.903mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10012.367mil|Location2.X=10017.593mil|Location1.Y=2672.677mil|Location2.Y=2677.903mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "R29" (102.299mm,37.275mm) on Top Overlay And Track (101.918mm,35.496mm)(101.918mm,37.02mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.745mil|Location2.X=10022.887mil|Location1.Y=2604.86mil|Location2.Y=2613.538mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10016.745mil|Location2.X=10022.887mil|Location1.Y=2604.86mil|Location2.Y=2613.538mil|Absolute=True">Silk To Silk Clearance Constraint: (0.069mm &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (99.124mm,35.496mm)(101.918mm,35.496mm) on Top Overlay Silk Text to Silk Clearance [0.069mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8168.357mil|Location2.X=8173.584mil|Location1.Y=2097.234mil|Location2.Y=2102.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8168.357mil|Location2.X=8173.584mil|Location1.Y=2097.234mil|Location2.Y=2102.46mil|Absolute=True">Silk To Silk Clearance Constraint: (0.068mm &lt; 0.101mm) Between Text "R4" (54.547mm,22.669mm) on Top Overlay And Track (54.272mm,22.393mm)(56.472mm,22.393mm) on Top Overlay Silk Text to Silk Clearance [0.068mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8160.46mil|Location2.X=8165.687mil|Location1.Y=1401.33mil|Location2.Y=1406.556mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8160.46mil|Location2.X=8165.687mil|Location1.Y=1401.33mil|Location2.Y=1406.556mil|Absolute=True">Silk To Silk Clearance Constraint: (0.069mm &lt; 0.101mm) Between Text "R2" (53.404mm,4.318mm) on Top Overlay And Track (55.013mm,3.027mm)(55.013mm,5.228mm) on Top Overlay Silk Text to Silk Clearance [0.069mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11747.614mil|Location2.X=11752.841mil|Location1.Y=3159.994mil|Location2.Y=3165.221mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11747.614mil|Location2.X=11752.841mil|Location1.Y=3159.994mil|Location2.Y=3165.221mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "C56" (145.859mm,48.578mm) on Top Overlay And Track (145.796mm,49.657mm)(149.352mm,49.657mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9384.412mil|Location2.X=9389.638mil|Location1.Y=1413.334mil|Location2.Y=1418.561mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9384.412mil|Location2.X=9389.638mil|Location1.Y=1413.334mil|Location2.Y=1418.561mil|Absolute=True">Silk To Silk Clearance Constraint: (0.067mm &lt; 0.101mm) Between Text "R43" (83.693mm,4.889mm) on Top Overlay And Track (86.101mm,-4.729mm)(86.101mm,14.771mm) on Top Overlay Silk Text to Silk Clearance [0.067mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12020.212mil|Location2.X=12025.438mil|Location1.Y=2947.352mil|Location2.Y=2952.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12020.212mil|Location2.X=12025.438mil|Location1.Y=2947.352mil|Location2.Y=2952.578mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "C55" (153.861mm,43.942mm) on Top Overlay And Track (152.781mm,43.688mm)(152.781mm,46.609mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11603.439mil|Location2.X=11607.089mil|Location1.Y=2855.843mil|Location2.Y=2859.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11603.439mil|Location2.X=11607.089mil|Location1.Y=2855.843mil|Location2.Y=2859.494mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C58" (142.24mm,41.021mm) on Top Overlay And Track (142.24mm,41.846mm)(142.24mm,44.767mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11655.655mil|Location2.X=11659.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11655.655mil|Location2.X=11659.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C58" (142.24mm,41.021mm) on Top Overlay And Track (142.24mm,41.846mm)(143.637mm,41.846mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11655.655mil|Location2.X=11659.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11655.655mil|Location2.X=11659.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C58" (142.24mm,41.021mm) on Top Overlay And Track (143.637mm,41.846mm)(143.637mm,44.767mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11665.655mil|Location2.X=11669.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11665.655mil|Location2.X=11669.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C58" (142.24mm,41.021mm) on Top Overlay And Track (143.891mm,41.846mm)(143.891mm,44.767mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11665.655mil|Location2.X=11669.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11665.655mil|Location2.X=11669.305mil|Location1.Y=2858.627mil|Location2.Y=2862.278mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C58" (142.24mm,41.021mm) on Top Overlay And Track (143.891mm,41.846mm)(145.288mm,41.846mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11659.705mil|Location2.X=11664.931mil|Location1.Y=3087.352mil|Location2.Y=3092.579mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11659.705mil|Location2.X=11664.931mil|Location1.Y=3087.352mil|Location2.Y=3092.579mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "C52" (143.891mm,47.498mm) on Top Overlay And Track (143.637mm,45.097mm)(143.637mm,48.018mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11659.705mil|Location2.X=11664.931mil|Location1.Y=3100.812mil|Location2.Y=3106.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11659.705mil|Location2.X=11664.931mil|Location1.Y=3100.812mil|Location2.Y=3106.038mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "C52" (143.891mm,47.498mm) on Top Overlay And Track (142.24mm,48.018mm)(143.637mm,48.018mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10229.867mil|Location2.X=10235.093mil|Location1.Y=3252.677mil|Location2.Y=3257.903mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10229.867mil|Location2.X=10235.093mil|Location1.Y=3252.677mil|Location2.Y=3257.903mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "U5" (106.299mm,52.007mm) on Top Overlay And Track (107.442mm,50.355mm)(107.442mm,51.752mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10232.096mil|Location2.X=10237.322mil|Location1.Y=3252.677mil|Location2.Y=3257.903mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10232.096mil|Location2.X=10237.322mil|Location1.Y=3252.677mil|Location2.Y=3257.903mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "U5" (106.299mm,52.007mm) on Top Overlay And Track (107.442mm,51.752mm)(110.363mm,51.752mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10358.26mil|Location2.X=10363.487mil|Location1.Y=2676.33mil|Location2.Y=2681.556mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10358.26mil|Location2.X=10363.487mil|Location1.Y=2676.33mil|Location2.Y=2681.556mil|Absolute=True">Silk To Silk Clearance Constraint: (0.009mm &lt; 0.101mm) Between Text "C42" (108.458mm,36.703mm) on Top Overlay And Track (110.808mm,36.322mm)(110.808mm,37.719mm) on Top Overlay Silk Text to Silk Clearance [0.009mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2664.842mil|Location2.Y=2668.493mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2664.842mil|Location2.Y=2668.493mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (103.061mm,36.83mm)(103.061mm,38.227mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2661.127mil|Location2.Y=2664.778mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10057.416mil|Location2.X=10061.067mil|Location1.Y=2661.127mil|Location2.Y=2664.778mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "R30" (102.933mm,34.925mm) on Top Overlay And Track (103.061mm,36.83mm)(105.981mm,36.83mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9964.245mil|Location2.X=9970.387mil|Location1.Y=2787.36mil|Location2.Y=2796.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9964.245mil|Location2.X=9970.387mil|Location1.Y=2787.36mil|Location2.Y=2796.038mil|Absolute=True">Silk To Silk Clearance Constraint: (0.069mm &lt; 0.101mm) Between Text "C36" (101.6mm,39.56mm) on Top Overlay And Track (99.187mm,40.132mm)(100.584mm,40.132mm) on Top Overlay Silk Text to Silk Clearance [0.069mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9963.962mil|Location2.X=9969.188mil|Location1.Y=2774.852mil|Location2.Y=2780.078mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9963.962mil|Location2.X=9969.188mil|Location1.Y=2774.852mil|Location2.Y=2780.078mil|Absolute=True">Silk To Silk Clearance Constraint: (0.008mm &lt; 0.101mm) Between Text "C36" (101.6mm,39.56mm) on Top Overlay And Track (100.584mm,37.211mm)(100.584mm,40.132mm) on Top Overlay Silk Text to Silk Clearance [0.008mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9697.01mil|Location2.X=9702.237mil|Location1.Y=2577.839mil|Location2.Y=2583.066mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9697.01mil|Location2.X=9702.237mil|Location1.Y=2577.839mil|Location2.Y=2583.066mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "C29" (91.63mm,34.353mm) on Top Overlay And Track (94.043mm,34.734mm)(96.965mm,34.734mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9697.01mil|Location2.X=9702.237mil|Location1.Y=2568.087mil|Location2.Y=2573.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9697.01mil|Location2.X=9702.237mil|Location1.Y=2568.087mil|Location2.Y=2573.313mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "C29" (91.63mm,34.353mm) on Top Overlay And Track (94.043mm,33.337mm)(94.043mm,34.734mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10183.287mil|Location2.X=10191.594mil|Location1.Y=2530.751mil|Location2.Y=2537.44mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10183.287mil|Location2.X=10191.594mil|Location1.Y=2530.751mil|Location2.Y=2537.44mil|Absolute=True">Silk To Silk Clearance Constraint: (0.091mm &lt; 0.101mm) Between Text "C41" (106.362mm,31.559mm) on Top Overlay And Track (106.172mm,33.655mm)(106.172mm,35.052mm) on Top Overlay Silk Text to Silk Clearance [0.091mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10065.063mil|Location2.X=10070.289mil|Location1.Y=2529.996mil|Location2.Y=2535.222mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10065.063mil|Location2.X=10070.289mil|Location1.Y=2529.996mil|Location2.Y=2535.222mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "C28" (103.124mm,32.575mm) on Top Overlay And Track (103.251mm,33.655mm)(103.251mm,35.052mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10128.086mil|Location2.X=10133.313mil|Location1.Y=2529.994mil|Location2.Y=2535.221mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10128.086mil|Location2.X=10133.313mil|Location1.Y=2529.994mil|Location2.Y=2535.221mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "C28" (103.124mm,32.575mm) on Top Overlay And Track (103.251mm,33.655mm)(106.172mm,33.655mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10183.287mil|Location2.X=10191.594mil|Location1.Y=2530.751mil|Location2.Y=2537.44mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10183.287mil|Location2.X=10191.594mil|Location1.Y=2530.751mil|Location2.Y=2537.44mil|Absolute=True">Silk To Silk Clearance Constraint: (0.091mm &lt; 0.101mm) Between Text "C41" (106.362mm,31.559mm) on Top Overlay And Track (103.251mm,33.655mm)(106.172mm,33.655mm) on Top Overlay Silk Text to Silk Clearance [0.091mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8060.114mil|Location2.X=8065.341mil|Location1.Y=2097.677mil|Location2.Y=2102.903mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8060.114mil|Location2.X=8065.341mil|Location1.Y=2097.677mil|Location2.Y=2102.903mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "C8" (52.197mm,22.669mm) on Top Overlay And Track (51.88mm,22.416mm)(53.911mm,22.416mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8440.114mil|Location2.X=8445.341mil|Location1.Y=1329.994mil|Location2.Y=1335.221mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8440.114mil|Location2.X=8445.341mil|Location1.Y=1329.994mil|Location2.Y=1335.221mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "2" (61.849mm,2.095mm) on Top Overlay And Track (60.071mm,3.175mm)(62.103mm,3.175mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8444.867mil|Location2.X=8450.093mil|Location1.Y=1329.994mil|Location2.Y=1335.221mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8444.867mil|Location2.X=8450.093mil|Location1.Y=1329.994mil|Location2.Y=1335.221mil|Absolute=True">Silk To Silk Clearance Constraint: (0.072mm &lt; 0.101mm) Between Text "2" (61.849mm,2.095mm) on Top Overlay And Track (62.103mm,3.175mm)(62.103mm,6.731mm) on Top Overlay Silk Text to Silk Clearance [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8005.029mil|Location2.X=8010.255mil|Location1.Y=1438.087mil|Location2.Y=1443.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8005.029mil|Location2.X=8010.255mil|Location1.Y=1438.087mil|Location2.Y=1443.313mil|Absolute=True">Silk To Silk Clearance Constraint: (0.046mm &lt; 0.101mm) Between Text "C2" (50.8mm,5.652mm) on Top Overlay And Track (51.054mm,5.461mm)(51.054mm,9.017mm) on Top Overlay Silk Text to Silk Clearance [0.046mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8053.669mil|Location2.X=8057.319mil|Location1.Y=1430.064mil|Location2.Y=1433.715mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8053.669mil|Location2.X=8057.319mil|Location1.Y=1430.064mil|Location2.Y=1433.715mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "L1" (52.946mm,5.664mm) on Top Overlay And Track (51.054mm,5.461mm)(53.086mm,5.461mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8089.416mil|Location2.X=8093.067mil|Location1.Y=1434.127mil|Location2.Y=1437.778mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8089.416mil|Location2.X=8093.067mil|Location1.Y=1434.127mil|Location2.Y=1437.778mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "L1" (52.946mm,5.664mm) on Top Overlay And Track (53.086mm,5.461mm)(53.086mm,9.017mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.433mil|Location2.X=10522.66mil|Location1.Y=2923.334mil|Location2.Y=2928.561mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.433mil|Location2.X=10522.66mil|Location1.Y=2923.334mil|Location2.Y=2928.561mil|Absolute=True">Silk To Silk Clearance Constraint: (0.094mm &lt; 0.101mm) Between Text "C38" (112.459mm,43.243mm) on Top Overlay And Track (115.043mm,24.765mm)(115.043mm,60.833mm) on Top Overlay Silk Text to Silk Clearance [0.094mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6490.655mil|Location2.X=6494.305mil|Location1.Y=1509.76mil|Location2.Y=1513.411mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6490.655mil|Location2.X=6494.305mil|Location1.Y=1509.76mil|Location2.Y=1513.411mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "-RX
+-IO
+-VCC" (12.383mm,7.112mm) on Bottom Overlay And Track (12.446mm,4.953mm)(12.446mm,12.573mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10242.392mil|Location2.X=10246.043mil|Location1.Y=3290.113mil|Location2.Y=3293.764mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10242.392mil|Location2.X=10246.043mil|Location1.Y=3290.113mil|Location2.Y=3293.764mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.101mm) Between Text "C39" (107.823mm,52.705mm) on Top Overlay And Text "U5" (106.299mm,52.007mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7089.867mil|Location2.X=7095.093mil|Location1.Y=2849.832mil|Location2.Y=2855.059mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7089.867mil|Location2.X=7095.093mil|Location1.Y=2849.832mil|Location2.Y=2855.059mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "D-" (27.686mm,41.783mm) on Top Overlay And Text "TP6" (27.559mm,40.703mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7978.086mil|Location2.X=7983.313mil|Location1.Y=1382.332mil|Location2.Y=1387.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7978.086mil|Location2.X=7983.313mil|Location1.Y=1382.332mil|Location2.Y=1387.559mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "3V3" (48.514mm,3.429mm) on Top Overlay And Text "TP1" (48.514mm,4.508mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11734.867mil|Location2.X=11740.093mil|Location1.Y=2382.332mil|Location2.Y=2387.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11734.867mil|Location2.X=11740.093mil|Location1.Y=2382.332mil|Location2.Y=2387.559mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "R60" (145.669mm,29.909mm) on Top Overlay And Text "R61" (145.669mm,28.829mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11803.086mil|Location2.X=11808.313mil|Location1.Y=2294.832mil|Location2.Y=2300.059mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11803.086mil|Location2.X=11808.313mil|Location1.Y=2294.832mil|Location2.Y=2300.059mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "R58" (145.669mm,26.607mm) on Top Overlay And Text "R59" (145.669mm,27.686mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11782.096mil|Location2.X=11787.322mil|Location1.Y=2252.332mil|Location2.Y=2257.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11782.096mil|Location2.X=11787.322mil|Location1.Y=2252.332mil|Location2.Y=2257.559mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "R49" (145.669mm,25.527mm) on Top Overlay And Text "R58" (145.669mm,26.607mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11779.596mil|Location2.X=11784.822mil|Location1.Y=2789.832mil|Location2.Y=2795.059mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11779.596mil|Location2.X=11784.822mil|Location1.Y=2789.832mil|Location2.Y=2795.059mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "R54" (145.606mm,40.259mm) on Top Overlay And Text "R57" (145.606mm,39.179mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11784.596mil|Location2.X=11789.822mil|Location1.Y=2122.332mil|Location2.Y=2127.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11784.596mil|Location2.X=11789.822mil|Location1.Y=2122.332mil|Location2.Y=2127.559mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "R55" (145.732mm,22.225mm) on Top Overlay And Text "R56" (145.732mm,23.305mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11782.096mil|Location2.X=11787.322mil|Location1.Y=2164.832mil|Location2.Y=2170.059mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11782.096mil|Location2.X=11787.322mil|Location1.Y=2164.832mil|Location2.Y=2170.059mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.101mm) Between Text "R53" (145.669mm,24.384mm) on Top Overlay And Text "R56" (145.732mm,23.305mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10026.129mil|Location2.X=10031.355mil|Location1.Y=2673.57mil|Location2.Y=2678.797mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10026.129mil|Location2.X=10031.355mil|Location1.Y=2673.57mil|Location2.Y=2678.797mil|Absolute=True">Silk To Silk Clearance Constraint: (0mm &lt; 0.101mm) Between Text "R29" (102.299mm,37.275mm) on Top Overlay And Text "R30" (102.933mm,34.925mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9997.992mil|Location2.X=10005.057mil|Location1.Y=2764.938mil|Location2.Y=2772.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9997.992mil|Location2.X=10005.057mil|Location1.Y=2764.938mil|Location2.Y=2772.322mil|Absolute=True">Silk To Silk Clearance Constraint: (0.009mm &lt; 0.101mm) Between Text "C36" (101.6mm,39.56mm) on Top Overlay And Text "R29" (102.299mm,37.275mm) on Top Overlay Silk Text to Silk Clearance [0.009mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11746.879mil|Location2.X=11757.514mil|Location1.Y=3115.298mil|Location2.Y=3122.028mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11746.879mil|Location2.X=11757.514mil|Location1.Y=3115.298mil|Location2.Y=3122.028mil|Absolute=True">Silk To Silk Clearance Constraint: (0.098mm &lt; 0.101mm) Between Text "C52" (143.891mm,47.498mm) on Top Overlay And Text "C56" (145.859mm,48.578mm) on Top Overlay Silk Text to Silk Clearance [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10149.855mil|Location2.X=10155.081mil|Location1.Y=2500.068mil|Location2.Y=2505.294mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vojislav\Documents\koruza-compute-module\koruza-compute-module-board\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10149.855mil|Location2.X=10155.081mil|Location1.Y=2500.068mil|Location2.Y=2505.294mil|Absolute=True">Silk To Silk Clearance Constraint: (0.09mm &lt; 0.101mm) Between Text "C28" (103.124mm,32.575mm) on Top Overlay And Text "C41" (106.362mm,31.559mm) on Top Overlay Silk Text to Silk Clearance [0.09mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
