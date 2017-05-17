@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for koruza-compute-module-board
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -344,20 +344,20 @@ DocumentPath=Project Outputs for koruza-compute-module-board\NC Drill\PCB.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Website
-Value=www.koruza.net
+Name=Company
+Value=Koruza
 
 [Parameter2]
+Name=ProjectTitle
+Value=Koruza-CM
+
+[Parameter3]
 Name=Version
 Value=v0.3.1
 
-[Parameter3]
-Name=ProjectTitile
-Value=Koruza-CM
-
 [Parameter4]
-Name=Company
-Value=Koruza
+Name=Website
+Value=www.koruza.net
 
 [Configuration1]
 Name=Default Configuration
@@ -405,7 +405,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for koruza-compute-module-board
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
