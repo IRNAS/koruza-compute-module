@@ -107,23 +107,6 @@ GenerateClassCluster=0
 DocumentUniqueId=RDLIGQDO
 
 [Document5]
-DocumentPath=..\..\..\Downloads\USB_Connector_Lib_20150530.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=koruza-compute-module-board.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=PAGE4 - SFP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FBKNXOMY
 
-[Document8]
+[Document7]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,24 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MAKNOWUF
 
-[Document9]
-DocumentPath=..\..\..\Downloads\WE-RJ45_LAN_rev16b.intlib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
+[Document8]
 DocumentPath=PcbLib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -208,7 +174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QCMDECEQ
 
-[Document11]
+[Document9]
 DocumentPath=..\..\Altium_libs\TI Power Management Linear Regulator Single Channel LDO (400-7500mA).IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -225,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document10]
 DocumentPath=..\..\Altium_libs\Samtec_2,54_mm_Pitch_Terminal_Strips.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -242,7 +208,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document11]
 DocumentPath=koruza-compute-module-board.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
