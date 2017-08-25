@@ -1,0 +1,15 @@
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C13 4u7/16V
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C14 4u7/16V
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C17 100nF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C21 220pF /2kV
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component CON4 Terminal Block, 3.5 mm
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component CON5 SD card
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R1 47k
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R2 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R4 47k
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R21 0.1R 1%
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U3 SRV05-4ATCT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U7 INA219
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH
+Added Room: Name=PAGE4 - SFP

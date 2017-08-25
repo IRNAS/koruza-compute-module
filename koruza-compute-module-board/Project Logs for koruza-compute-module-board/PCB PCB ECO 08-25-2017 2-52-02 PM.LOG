@@ -1,0 +1,643 @@
+Removed Pin From Net: NetName=POE_V- Pin=C14-1
+Removed Pin From Net: NetName=POE_V+ Pin=C14-2
+Removed Pin From Net: NetName=POE_V- Pin=C15-1
+Removed Pin From Net: NetName=POE_V- Pin=C17-1
+Removed Pin From Net: NetName=GND Pin=C17-2
+Removed Pin From Net: NetName=5V Pin=C18-2
+Removed Pin From Net: NetName=5V Pin=C20-2
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=5V Pin=C21-2
+Removed Pin From Net: NetName=5V Pin=C49-2
+Removed Pin From Net: NetName=GND Pin=C50-1
+Removed Pin From Net: NetName=3V3 Pin=C50-2
+Removed Pin From Net: NetName=GND Pin=C51-1
+Removed Pin From Net: NetName=3V3 Pin=C51-2
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=GND Pin=CAGE1-21
+Removed Pin From Net: NetName=VBUSB Pin=CON4-1
+Removed Pin From Net: NetName=USB_PROG_N Pin=CON4-2
+Removed Pin From Net: NetName=USB_PROG_P Pin=CON4-3
+Removed Pin From Net: NetName=GND Pin=CON4-5
+Removed Pin From Net: NetName=GND Pin=CON4-6
+Removed Pin From Net: NetName=GND Pin=CON4-7
+Removed Pin From Net: NetName=GND Pin=CON4-8
+Removed Pin From Net: NetName=GND Pin=CON4-9
+Removed Pin From Net: NetName=GND Pin=CON4-10
+Removed Pin From Net: NetName=GND Pin=CON4-11
+Removed Pin From Net: NetName=5V Pin=CON5-1
+Removed Pin From Net: NetName=USB_2_N Pin=CON5-2
+Removed Pin From Net: NetName=USB_2_P Pin=CON5-3
+Removed Pin From Net: NetName=GND Pin=CON5-4
+Removed Pin From Net: NetName=GND Pin=CON5-6
+Removed Pin From Net: NetName=GND Pin=CON5-6
+Removed Pin From Net: NetName=GND Pin=CON5-6
+Removed Pin From Net: NetName=GND Pin=CON5-6
+Removed Pin From Net: NetName=GND Pin=D1-1
+Removed Pin From Net: NetName=POE_V+ Pin=L3-1
+Removed Pin From Net: NetName=GND Pin=LED1-1
+Removed Pin From Net: NetName=5V Pin=LED1-3
+Removed Pin From Net: NetName=VBUSB Pin=P1-5
+Removed Pin From Net: NetName=5V Pin=P1-6
+Removed Pin From Net: NetName=VCCR_2 Pin=P6-1
+Removed Pin From Net: NetName=VCCT_2 Pin=P6-2
+Removed Pin From Net: NetName=VCCR_1 Pin=P6-3
+Removed Pin From Net: NetName=VCCT_1 Pin=P6-4
+Removed Pin From Net: NetName=LOS_1 Pin=P6-5
+Removed Pin From Net: NetName=TX_FAULT_2 Pin=P6-6
+Removed Pin From Net: NetName=MOD_DEF_0_1 Pin=P6-9
+Removed Pin From Net: NetName=SFP/GPIO44/SDA1 Pin=P6-10
+Removed Pin From Net: NetName=SFP/GPIO3/SCL1 Pin=P6-11
+Removed Pin From Net: NetName=SFP/GPIO45/SCL1 Pin=P6-12
+Removed Pin From Net: NetName=SFP/GPIO2/SDA1 Pin=P6-13
+Removed Pin From Net: NetName=MOD_DEF_0_2 Pin=P6-14
+Removed Pin From Net: NetName=TX_FAULT_1 Pin=P6-17
+Removed Pin From Net: NetName=LOS_2 Pin=P6-18
+Removed Pin From Net: NetName=NetD2_1 Pin=Q1-3
+Removed Pin From Net: NetName=NetD2_1 Pin=Q2-1
+Removed Pin From Net: NetName=5V Pin=R1-1
+Removed Pin From Net: NetName=3V3 Pin=R2-1
+Removed Pin From Net: NetName=1V8 Pin=R4-1
+Removed Pin From Net: NetName=3V3 Pin=R15-1
+Removed Pin From Net: NetName=GPIO40/TXD1 Pin=R20-1
+Removed Pin From Net: NetName=GND Pin=R27-2
+Removed Pin From Net: NetName=GND Pin=R28-2
+Removed Pin From Net: NetName=GND Pin=R37-1
+Removed Pin From Net: NetName=LOS_1 Pin=R46-1
+Removed Pin From Net: NetName=SFP_3V3 Pin=R46-2
+Removed Pin From Net: NetName=MOD_DEF_0_1 Pin=R47-1
+Removed Pin From Net: NetName=LOS_2 Pin=R48-1
+Removed Pin From Net: NetName=MOD_DEF_0_2 Pin=R49-1
+Removed Pin From Net: NetName=GND Pin=R55-1
+Removed Pin From Net: NetName=SFP_3V3 Pin=R56-2
+Removed Pin From Net: NetName=GND Pin=R57-1
+Removed Pin From Net: NetName=GND Pin=SW1-2
+Removed Pin From Net: NetName=3V3 Pin=SW1-3
+Removed Pin From Net: NetName=POE_V+ Pin=T1-6
+Removed Pin From Net: NetName=5V Pin=TP9-1
+Removed Pin From Net: NetName=POE_V- Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U3-7
+Removed Pin From Net: NetName=5V Pin=U4-3
+Removed Pin From Net: NetName=GND Pin=U7-1
+Removed Pin From Net: NetName=3V3 Pin=U7-2
+Removed Pin From Net: NetName=SFP/GPIO44/SDA1 Pin=U7-3
+Removed Pin From Net: NetName=SFP/GPIO45/SCL1 Pin=U7-4
+Removed Pin From Net: NetName=GND Pin=U7-5
+Removed Pin From Net: NetName=3V3 Pin=U7-6
+Removed Pin From Net: NetName=GND Pin=U7-7
+Removed Pin From Net: NetName=3V3 Pin=U7-8
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=C15
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=C17
+Removed Member From Class: ClassName=PAGE4 - SFP Member=C50
+Removed Member From Class: ClassName=PAGE4 - SFP Member=C51
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=CON4
+Removed Member From Class: ClassName=PAGE3 - HUB, USB, ETH Member=CON5
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=L3
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=LED1
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=MH6
+Removed Member From Class: ClassName=PAGE4 - SFP Member=P6
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R1
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R2
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R4
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R15
+Removed Member From Class: ClassName=PAGE4 - SFP Member=R46
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=SW1
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=TP4
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=U3
+Removed Member From Class: ClassName=PAGE4 - SFP Member=U7
+Change Component Comment : Designator=R46 Old Comment=0R New Comment=1M
+Change Component Comment : Designator=R47 Old Comment=0R New Comment=10k
+Change Component Comment : Designator=R48 Old Comment=0R New Comment=10k
+Change Component Comment : Designator=R49 Old Comment=0R New Comment=10k
+Change Component Comment : Designator=R54 Old Comment=0R New Comment=10k
+Change Component Comment : Designator=R55 Old Comment=0R New Comment=10k
+Change Component Comment : Designator=R56 Old Comment=0R New Comment=10k
+Change Component Comment : Designator=R57 Old Comment=0R New Comment=10k
+Change Component Comment : Designator=C47 Old Comment=10uF /16V New Comment=4u7/16V
+Change Component Comment : Designator=C49 Old Comment=10uF /16V New Comment=100nF
+Change Component Comment : Designator=C15 Old Comment=10uF /50V New Comment=10uF
+Change Component Comment : Designator=U5 Old Comment=LAN9512-JZX New Comment=LAN9514
+Change Component Designator: OldDesignator=MH5 NewDesignator=MH2
+Change Component Kind : Designator=P5 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=P5 Old Kind=Standard (No BOM) New Kind=Standard (No BOM)
+Change Component Kind : Designator=P3 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=P3 Old Kind=Standard (No BOM) New Kind=Standard (No BOM)
+Change Component Kind : Designator=P1 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=P1 Old Kind=Standard (No BOM) New Kind=Standard (No BOM)
+Added Component: Designator=*(10118193)
+Added Component: Designator=C13(CAP0603)
+Added Component: Designator=C14(CAP0603)
+Added Component: Designator=C17(CAP0603)
+Added Component: Designator=C21(CAP1206)
+Added Component: Designator=C62(CAP0805)
+Added Component: Designator=C63(CAP1206)
+Added Component: Designator=C64(CAP0603)
+Added Component: Designator=C65(CAP0603)
+Added Component: Designator=C66(CAP0805)
+Added Component: Designator=C67(CAP1206)
+Added Component: Designator=C68(CAP0603)
+Added Component: Designator=C69(CAP0603)
+Added Component: Designator=C70(CAP0805)
+Added Component: Designator=C71(CAP1206)
+Added Component: Designator=C72(CAP0603)
+Added Component: Designator=C73(CAP0603)
+Added Component: Designator=C74(CAP0805)
+Added Component: Designator=CON4(Block Terminal 3.5mm)
+Added Component: Designator=CON5(MICRO SD CARD SOCKET)
+Added Component: Designator=CON6(DUAL_USB_CONN)
+Added Component: Designator=CON7(DUAL_USB_CONN)
+Added Component: Designator=CON8(Hdr1x2_2.54mm)
+Added Component: Designator=D5(DIOM4326X24N_1)
+Added Component: Designator=D6(DIOM4326X24N_1)
+Added Component: Designator=P2(JST1X3_2.54MM)
+Added Component: Designator=P4(HDR2X11)
+Added Component: Designator=Q4(DMG1012T-7)
+Added Component: Designator=Q5(DMG1012T-7)
+Added Component: Designator=Q6(SOT23127P600-8N - 1)
+Added Component: Designator=R1(RES0603)
+Added Component: Designator=R2(RES0603)
+Added Component: Designator=R4(RES0603)
+Added Component: Designator=R11(RES0603)
+Added Component: Designator=R12(RES0603)
+Added Component: Designator=R21(RES1206)
+Added Component: Designator=R62(RES0603)
+Added Component: Designator=R63(RES0603)
+Added Component: Designator=R64(RES0603)
+Added Component: Designator=R65(RES0603)
+Added Component: Designator=R66(RES0603)
+Added Component: Designator=R67(RES0603)
+Added Component: Designator=U3(SOT23127P600-8N)
+Added Component: Designator=U7(SOT23-8PIN)
+Added Component: Designator=U8(SON65P200X63_HS-7N)
+Added Component: Designator=U9(SOT23127P600-8N)
+Added Component: Designator=U10(SON65P200X63_HS-7N)
+Added Component: Designator=U11(SOT23127P600-8N)
+Added Component: Designator=U12(SON65P200X63_HS-7N)
+Added Component: Designator=U13(SOT23127P600-8N)
+Added Component: Designator=U14(SON65P200X63_HS-7N)
+Added Component: Designator=U15(SOT23127P600-8N)
+Added Component: Designator=U16(SOP127P600-8N)
+Added Pin To Net: NetName=VBUSB Pin=*-1
+Added Pin To Net: NetName=USB_PROG_N Pin=*-2
+Added Pin To Net: NetName=USB_PROG_P Pin=*-3
+Added Pin To Net: NetName=GND Pin=*-5
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=3V3 Pin=C3-2
+Added Pin To Net: NetName=1V8 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=3V3 Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=3V3 Pin=C14-2
+Added Pin To Net: NetName=5V Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=5V Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C62-1
+Added Pin To Net: NetName=5V Pin=C63-1
+Added Pin To Net: NetName=GND Pin=C63-2
+Added Pin To Net: NetName=GND Pin=C64-1
+Added Pin To Net: NetName=5V Pin=C64-2
+Added Pin To Net: NetName=GND Pin=C65-1
+Added Pin To Net: NetName=GND Pin=C66-1
+Added Pin To Net: NetName=5V Pin=C67-1
+Added Pin To Net: NetName=GND Pin=C67-2
+Added Pin To Net: NetName=GND Pin=C68-1
+Added Pin To Net: NetName=5V Pin=C68-2
+Added Pin To Net: NetName=GND Pin=C69-1
+Added Pin To Net: NetName=GND Pin=C70-1
+Added Pin To Net: NetName=5V Pin=C71-1
+Added Pin To Net: NetName=GND Pin=C71-2
+Added Pin To Net: NetName=GND Pin=C72-1
+Added Pin To Net: NetName=5V Pin=C72-2
+Added Pin To Net: NetName=GND Pin=C73-1
+Added Pin To Net: NetName=GND Pin=C74-1
+Added Pin To Net: NetName=3V3 Pin=CON1-4
+Added Pin To Net: NetName=3V3 Pin=CON1-6
+Added Pin To Net: NetName=GND Pin=CON1-8
+Added Pin To Net: NetName=GND Pin=CON1-14
+Added Pin To Net: NetName=GND Pin=CON1-20
+Added Pin To Net: NetName=1V8 Pin=CON1-183
+Added Pin To Net: NetName=1V8 Pin=CON1-184
+Added Pin To Net: NetName=1V8 Pin=CON1-185
+Added Pin To Net: NetName=1V8 Pin=CON1-186
+Added Pin To Net: NetName=3V3 Pin=CON1-189
+Added Pin To Net: NetName=3V3 Pin=CON1-190
+Added Pin To Net: NetName=3V3 Pin=CON1-191
+Added Pin To Net: NetName=3V3 Pin=CON1-192
+Added Pin To Net: NetName=3V3 Pin=CON1-193
+Added Pin To Net: NetName=3V3 Pin=CON1-194
+Added Pin To Net: NetName=5V Pin=CON1-197
+Added Pin To Net: NetName=5V Pin=CON1-198
+Added Pin To Net: NetName=5V Pin=CON1-199
+Added Pin To Net: NetName=5V Pin=CON1-200
+Added Pin To Net: NetName=5V Pin=CON3-1
+Added Pin To Net: NetName=POE_V- Pin=CON4-1
+Added Pin To Net: NetName=POE_V+ Pin=CON4-2
+Added Pin To Net: NetName=3V3 Pin=CON5-4
+Added Pin To Net: NetName=GND Pin=CON5-6
+Added Pin To Net: NetName=GND Pin=CON5-G1
+Added Pin To Net: NetName=GND Pin=CON5-G2
+Added Pin To Net: NetName=GND Pin=CON5-G4
+Added Pin To Net: NetName=GND Pin=CON6-4
+Added Pin To Net: NetName=GND Pin=CON6-8
+Added Pin To Net: NetName=GND Pin=CON7-4
+Added Pin To Net: NetName=GND Pin=CON7-8
+Added Pin To Net: NetName=POE_V+ Pin=CON8-2
+Added Pin To Net: NetName=POE_V+ Pin=D5-1
+Added Pin To Net: NetName=POE_V+ Pin=D6-1
+Added Pin To Net: NetName=3V3 Pin=P1-5
+Added Pin To Net: NetName=3V3 Pin=P1-6
+Added Pin To Net: NetName=5V Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=VCCR_2 Pin=P4-3
+Added Pin To Net: NetName=VCCT_2 Pin=P4-4
+Added Pin To Net: NetName=VCCR_1 Pin=P4-5
+Added Pin To Net: NetName=VCCT_1 Pin=P4-6
+Added Pin To Net: NetName=LOS_1 Pin=P4-7
+Added Pin To Net: NetName=TX_FAULT_2 Pin=P4-8
+Added Pin To Net: NetName=MOD_DEF_0_1 Pin=P4-11
+Added Pin To Net: NetName=SFP/GPIO44/SDA1 Pin=P4-12
+Added Pin To Net: NetName=SFP/GPIO3/SCL1 Pin=P4-13
+Added Pin To Net: NetName=SFP/GPIO45/SCL1 Pin=P4-14
+Added Pin To Net: NetName=SFP/GPIO2/SDA1 Pin=P4-15
+Added Pin To Net: NetName=MOD_DEF_0_2 Pin=P4-16
+Added Pin To Net: NetName=TX_FAULT_1 Pin=P4-19
+Added Pin To Net: NetName=LOS_2 Pin=P4-20
+Added Pin To Net: NetName=GND Pin=P4-21
+Added Pin To Net: NetName=GND Pin=P4-22
+Added Pin To Net: NetName=GND Pin=P5-7
+Added Pin To Net: NetName=VBUSB Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=Q4-3
+Added Pin To Net: NetName=NetD2_1 Pin=Q5-1
+Added Pin To Net: NetName=POE_V- Pin=Q6-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=5V Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=VBUSB Pin=R9-2
+Added Pin To Net: NetName=5V Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=5V Pin=R15-1
+Added Pin To Net: NetName=5V Pin=R21-2
+Added Pin To Net: NetName=POE_V- Pin=R28-2
+Added Pin To Net: NetName=GND Pin=R37-2
+Added Pin To Net: NetName=GND Pin=R46-1
+Added Pin To Net: NetName=LOS_1 Pin=R47-1
+Added Pin To Net: NetName=MOD_DEF_0_1 Pin=R48-1
+Added Pin To Net: NetName=LOS_2 Pin=R49-1
+Added Pin To Net: NetName=MOD_DEF_0_2 Pin=R54-1
+Added Pin To Net: NetName=SFP_3V3 Pin=R55-2
+Added Pin To Net: NetName=GND Pin=R56-1
+Added Pin To Net: NetName=SFP_3V3 Pin=R57-2
+Added Pin To Net: NetName=GND Pin=R62-1
+Added Pin To Net: NetName=5V Pin=R63-1
+Added Pin To Net: NetName=3V3 Pin=R64-2
+Added Pin To Net: NetName=3V3 Pin=R65-2
+Added Pin To Net: NetName=POE_V- Pin=R66-1
+Added Pin To Net: NetName=GND Pin=R67-1
+Added Pin To Net: NetName=ETH_TX_P Pin=U3-1
+Added Pin To Net: NetName=ETH_RX_N Pin=U3-3
+Added Pin To Net: NetName=ETH_RX_P Pin=U3-4
+Added Pin To Net: NetName=ETH_TX_N Pin=U3-6
+Added Pin To Net: NetName=5V Pin=U7-2
+Added Pin To Net: NetName=GND Pin=U7-3
+Added Pin To Net: NetName=3V3 Pin=U7-4
+Added Pin To Net: NetName=SFP/GPIO45/SCL1 Pin=U7-5
+Added Pin To Net: NetName=SFP/GPIO44/SDA1 Pin=U7-6
+Added Pin To Net: NetName=GND Pin=U7-7
+Added Pin To Net: NetName=GND Pin=U7-8
+Added Pin To Net: NetName=GND Pin=U8-5
+Added Pin To Net: NetName=5V Pin=U8-6
+Added Pin To Net: NetName=GND Pin=U8-7
+Added Pin To Net: NetName=USB_2_N Pin=U9-1
+Added Pin To Net: NetName=GND Pin=U9-2
+Added Pin To Net: NetName=USB_2_P Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U10-5
+Added Pin To Net: NetName=5V Pin=U10-6
+Added Pin To Net: NetName=GND Pin=U10-7
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=GND Pin=U12-5
+Added Pin To Net: NetName=5V Pin=U12-6
+Added Pin To Net: NetName=GND Pin=U12-7
+Added Pin To Net: NetName=GND Pin=U13-2
+Added Pin To Net: NetName=GND Pin=U14-5
+Added Pin To Net: NetName=5V Pin=U14-6
+Added Pin To Net: NetName=GND Pin=U14-7
+Added Pin To Net: NetName=GND Pin=U15-2
+Added Pin To Net: NetName=POE_V+ Pin=U16-4
+Change Net Name : Old Net Name=GPIO37 New Net Name=GPIO37/RXD0
+Added Pin To Net: NetName=CAM_SW Pin=C16-1
+Added Pin To Net: NetName=CAM_SW Pin=CON2-15
+Added Pin To Net: NetName=CAM_SW Pin=CON2-15
+Added Pin To Net: NetName=CAM_SW Pin=P1-3
+Added Net: Name=CAM_SW
+Added Pin To Net: NetName=E_GND Pin=*-6
+Added Pin To Net: NetName=E_GND Pin=*-7
+Added Pin To Net: NetName=E_GND Pin=*-8
+Added Pin To Net: NetName=E_GND Pin=*-9
+Added Pin To Net: NetName=E_GND Pin=*-10
+Added Pin To Net: NetName=E_GND Pin=*-11
+Added Pin To Net: NetName=E_GND Pin=C21-2
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CAGE1-21
+Added Pin To Net: NetName=E_GND Pin=CON6-0
+Added Pin To Net: NetName=E_GND Pin=CON6-0
+Added Pin To Net: NetName=E_GND Pin=CON6-0
+Added Pin To Net: NetName=E_GND Pin=CON6-0
+Added Pin To Net: NetName=E_GND Pin=CON7-0
+Added Pin To Net: NetName=E_GND Pin=CON7-0
+Added Pin To Net: NetName=E_GND Pin=CON7-0
+Added Pin To Net: NetName=E_GND Pin=CON7-0
+Added Pin To Net: NetName=E_GND Pin=MH1-1
+Added Pin To Net: NetName=E_GND Pin=MH2-1
+Added Pin To Net: NetName=E_GND Pin=MH3-1
+Added Pin To Net: NetName=E_GND Pin=MH4-1
+Added Pin To Net: NetName=E_GND Pin=R46-2
+Added Net: Name=E_GND
+Added Pin To Net: NetName=GPIO12/RGB_LED Pin=CON1-45
+Added Pin To Net: NetName=GPIO12/RGB_LED Pin=R20-1
+Added Net: Name=GPIO12/RGB_LED
+Added Pin To Net: NetName=GPIO17/HEATER Pin=CON1-59
+Added Pin To Net: NetName=GPIO17/HEATER Pin=U16-2
+Added Net: Name=GPIO17/HEATER
+Added Pin To Net: NetName=GPIO20/FRONT Pin=CON1-69
+Added Pin To Net: NetName=GPIO20/FRONT Pin=P1-4
+Added Net: Name=GPIO20/FRONT
+Added Pin To Net: NetName=GPIO35/PWR_LED_EN Pin=CON1-54
+Added Pin To Net: NetName=GPIO35/PWR_LED_EN Pin=Q4-2
+Added Pin To Net: NetName=GPIO35/PWR_LED_EN Pin=Q5-2
+Added Pin To Net: NetName=GPIO35/PWR_LED_EN Pin=R64-1
+Added Net: Name=GPIO35/PWR_LED_EN
+Added Pin To Net: NetName=GPIO36/TXD0 Pin=CON1-58
+Added Pin To Net: NetName=GPIO36/TXD0 Pin=P3-14
+Added Net: Name=GPIO36/TXD0
+Added Pin To Net: NetName=NetC18_2 Pin=C18-2
+Added Pin To Net: NetName=NetC18_2 Pin=C20-2
+Added Pin To Net: NetName=NetC18_2 Pin=R21-1
+Added Pin To Net: NetName=NetC18_2 Pin=TP9-1
+Added Pin To Net: NetName=NetC18_2 Pin=U4-3
+Added Pin To Net: NetName=NetC18_2 Pin=U7-1
+Added Net: Name=NetC18_2
+Added Pin To Net: NetName=NetCON8_1 Pin=CON8-1
+Added Pin To Net: NetName=NetCON8_1 Pin=Q6-3
+Added Net: Name=NetCON8_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=Q4-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=R27-2
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=T1-6
+Added Net: Name=NetD6_2
+Added Pin To Net: NetName=NetP2_3 Pin=P2-3
+Added Pin To Net: NetName=NetP2_3 Pin=R20-2
+Added Net: Name=NetP2_3
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=Q2-1
+Added Pin To Net: NetName=NetQ1_3 Pin=Q5-3
+Added Net: Name=NetQ1_3
+Added Pin To Net: NetName=NetQ6_1 Pin=Q6-1
+Added Pin To Net: NetName=NetQ6_1 Pin=R66-2
+Added Pin To Net: NetName=NetQ6_1 Pin=U16-3
+Added Net: Name=NetQ6_1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U8-2
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=U10-2
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=U12-2
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetR37_1 Pin=R37-1
+Added Pin To Net: NetName=NetR37_1 Pin=U5-50
+Added Net: Name=NetR37_1
+Added Pin To Net: NetName=NetR62_2 Pin=R62-2
+Added Pin To Net: NetName=NetR62_2 Pin=U14-2
+Added Net: Name=NetR62_2
+Added Pin To Net: NetName=NetR65_1 Pin=R65-1
+Added Pin To Net: NetName=NetR65_1 Pin=U16-1
+Added Net: Name=NetR65_1
+Added Pin To Net: NetName=PRTCTL2 Pin=U5-14
+Added Pin To Net: NetName=PRTCTL2 Pin=U8-3
+Added Pin To Net: NetName=PRTCTL2 Pin=U8-4
+Added Net: Name=PRTCTL2
+Added Pin To Net: NetName=PRTCTL3 Pin=U5-16
+Added Pin To Net: NetName=PRTCTL3 Pin=U10-3
+Added Pin To Net: NetName=PRTCTL3 Pin=U10-4
+Added Net: Name=PRTCTL3
+Added Pin To Net: NetName=PRTCTL4 Pin=U5-17
+Added Pin To Net: NetName=PRTCTL4 Pin=U12-3
+Added Pin To Net: NetName=PRTCTL4 Pin=U12-4
+Added Net: Name=PRTCTL4
+Added Pin To Net: NetName=PRTCTL5 Pin=U5-18
+Added Pin To Net: NetName=PRTCTL5 Pin=U14-3
+Added Pin To Net: NetName=PRTCTL5 Pin=U14-4
+Added Net: Name=PRTCTL5
+Added Pin To Net: NetName=SDX_CLK Pin=CON1-10
+Added Pin To Net: NetName=SDX_CLK Pin=CON5-5
+Added Net: Name=SDX_CLK
+Added Pin To Net: NetName=SDX_CMD Pin=CON1-12
+Added Pin To Net: NetName=SDX_CMD Pin=CON5-3
+Added Net: Name=SDX_CMD
+Added Pin To Net: NetName=SDX_D0 Pin=CON1-16
+Added Pin To Net: NetName=SDX_D0 Pin=CON5-7
+Added Net: Name=SDX_D0
+Added Pin To Net: NetName=SDX_D1 Pin=CON1-18
+Added Pin To Net: NetName=SDX_D1 Pin=CON5-8
+Added Net: Name=SDX_D1
+Added Pin To Net: NetName=SDX_D2 Pin=CON1-22
+Added Pin To Net: NetName=SDX_D2 Pin=CON5-1
+Added Net: Name=SDX_D2
+Added Pin To Net: NetName=SDX_D3 Pin=CON1-24
+Added Pin To Net: NetName=SDX_D3 Pin=CON5-2
+Added Net: Name=SDX_D3
+Added Pin To Net: NetName=SFP_RATE_SEL_1/GPIO11 Pin=CON1-35
+Added Pin To Net: NetName=SFP_RATE_SEL_1/GPIO11 Pin=P4-9
+Added Pin To Net: NetName=SFP_RATE_SEL_1/GPIO11 Pin=R55-1
+Added Net: Name=SFP_RATE_SEL_1/GPIO11
+Added Pin To Net: NetName=SFP_RATE_SEL_2/GPIO10 Pin=CON1-33
+Added Pin To Net: NetName=SFP_RATE_SEL_2/GPIO10 Pin=P4-18
+Added Pin To Net: NetName=SFP_RATE_SEL_2/GPIO10 Pin=R57-1
+Added Net: Name=SFP_RATE_SEL_2/GPIO10
+Added Pin To Net: NetName=SFP_TX_DISABLE_1/GPIO9 Pin=CON1-29
+Added Pin To Net: NetName=SFP_TX_DISABLE_1/GPIO9 Pin=P4-17
+Added Pin To Net: NetName=SFP_TX_DISABLE_1/GPIO9 Pin=R56-2
+Added Net: Name=SFP_TX_DISABLE_1/GPIO9
+Added Pin To Net: NetName=SFP_TX_DISABLE_2/GPIO8 Pin=CON1-27
+Added Pin To Net: NetName=SFP_TX_DISABLE_2/GPIO8 Pin=P4-10
+Added Pin To Net: NetName=SFP_TX_DISABLE_2/GPIO8 Pin=R67-2
+Added Net: Name=SFP_TX_DISABLE_2/GPIO8
+Added Pin To Net: NetName=USB_3_N Pin=U5-3
+Added Pin To Net: NetName=USB_3_N Pin=U11-1
+Added Net: Name=USB_3_N
+Added Pin To Net: NetName=USB_3_P Pin=U5-4
+Added Pin To Net: NetName=USB_3_P Pin=U11-3
+Added Net: Name=USB_3_P
+Added Pin To Net: NetName=USB_4_N Pin=U5-6
+Added Pin To Net: NetName=USB_4_N Pin=U13-1
+Added Net: Name=USB_4_N
+Added Pin To Net: NetName=USB_4_P Pin=U5-7
+Added Pin To Net: NetName=USB_4_P Pin=U13-3
+Added Net: Name=USB_4_P
+Added Pin To Net: NetName=USB_5_N Pin=U5-8
+Added Pin To Net: NetName=USB_5_N Pin=U15-1
+Added Net: Name=USB_5_N
+Added Pin To Net: NetName=USB_5_P Pin=U5-9
+Added Pin To Net: NetName=USB_5_P Pin=U15-3
+Added Net: Name=USB_5_P
+Added Pin To Net: NetName=USB_CON_2_N Pin=CON6-2
+Added Pin To Net: NetName=USB_CON_2_N Pin=U9-6
+Added Net: Name=USB_CON_2_N
+Added Pin To Net: NetName=USB_CON_2_P Pin=CON6-3
+Added Pin To Net: NetName=USB_CON_2_P Pin=U9-4
+Added Net: Name=USB_CON_2_P
+Added Pin To Net: NetName=USB_CON_3_N Pin=CON6-6
+Added Pin To Net: NetName=USB_CON_3_N Pin=U11-6
+Added Net: Name=USB_CON_3_N
+Added Pin To Net: NetName=USB_CON_3_P Pin=CON6-7
+Added Pin To Net: NetName=USB_CON_3_P Pin=U11-4
+Added Net: Name=USB_CON_3_P
+Added Pin To Net: NetName=USB_CON_4_N Pin=CON7-2
+Added Pin To Net: NetName=USB_CON_4_N Pin=U13-6
+Added Net: Name=USB_CON_4_N
+Added Pin To Net: NetName=USB_CON_4_P Pin=CON7-3
+Added Pin To Net: NetName=USB_CON_4_P Pin=U13-4
+Added Net: Name=USB_CON_4_P
+Added Pin To Net: NetName=USB_CON_5_N Pin=CON7-6
+Added Pin To Net: NetName=USB_CON_5_N Pin=U15-6
+Added Net: Name=USB_CON_5_N
+Added Pin To Net: NetName=USB_CON_5_P Pin=CON7-7
+Added Pin To Net: NetName=USB_CON_5_P Pin=U15-4
+Added Net: Name=USB_CON_5_P
+Added Pin To Net: NetName=VUSB2 Pin=C49-2
+Added Pin To Net: NetName=VUSB2 Pin=C62-2
+Added Pin To Net: NetName=VUSB2 Pin=CON6-1
+Added Pin To Net: NetName=VUSB2 Pin=R2-2
+Added Pin To Net: NetName=VUSB2 Pin=U8-1
+Added Pin To Net: NetName=VUSB2 Pin=U9-5
+Added Net: Name=VUSB2
+Added Pin To Net: NetName=VUSB3 Pin=C65-2
+Added Pin To Net: NetName=VUSB3 Pin=C66-2
+Added Pin To Net: NetName=VUSB3 Pin=CON6-5
+Added Pin To Net: NetName=VUSB3 Pin=R11-2
+Added Pin To Net: NetName=VUSB3 Pin=U10-1
+Added Pin To Net: NetName=VUSB3 Pin=U11-5
+Added Net: Name=VUSB3
+Added Pin To Net: NetName=VUSB4 Pin=C69-2
+Added Pin To Net: NetName=VUSB4 Pin=C70-2
+Added Pin To Net: NetName=VUSB4 Pin=CON7-1
+Added Pin To Net: NetName=VUSB4 Pin=R15-2
+Added Pin To Net: NetName=VUSB4 Pin=U12-1
+Added Pin To Net: NetName=VUSB4 Pin=U13-5
+Added Net: Name=VUSB4
+Added Pin To Net: NetName=VUSB5 Pin=C73-2
+Added Pin To Net: NetName=VUSB5 Pin=C74-2
+Added Pin To Net: NetName=VUSB5 Pin=CON7-5
+Added Pin To Net: NetName=VUSB5 Pin=R63-2
+Added Pin To Net: NetName=VUSB5 Pin=U14-1
+Added Pin To Net: NetName=VUSB5 Pin=U15-5
+Added Net: Name=VUSB5
+Added Differential Pair: Name=USB_3
+Added Differential Pair: Name=USB_4
+Added Differential Pair: Name=USB_5
+Added Differential Pair: Name=USB_CON_2
+Added Differential Pair: Name=USB_CON_3
+Added Differential Pair: Name=USB_CON_4
+Added Differential Pair: Name=USB_CON_5
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component * MicroUSB
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C15 10uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C17 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C62 47uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C63 10uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C64 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C65 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C66 47uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C67 10uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C68 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C69 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C70 47uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C71 10uF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C72 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C73 100nF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C74 47uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component CON4 Terminal Block, 3.5 mm
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component CON5 SD card
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component CON6 DUAL USB CONNECTOR
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component CON7 DUAL USB CONNECTOR
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component CON8 68001-402HLF
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component D5 MRA4007T3G
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component D6 MRA4007T3G
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component FID3 FID_1MMC
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P2 Header 3
+Added Member To Class: ClassName=PAGE4 - SFP Member=Component P4 Header 11X2
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component Q4 DMG1012T-7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component Q5 DMG1012T-7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component Q6 CPH3455-TL-W
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R1 47k
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R2 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R4 47k
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R11 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R12 47k
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R15 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R46 1M
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R62 47k
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R63 0R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R64 100k
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R65 470R
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R66 10k
+Added Member To Class: ClassName=PAGE4 - SFP Member=Component R67 10k
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U3 SRV05-4ATCT
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U7 INA219
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U8 AP2553FDC-7
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U9 USBLC6-2SC6
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U10 AP2553FDC-7
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U11 USBLC6-2SC6
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U12 AP2553FDC-7
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U13 USBLC6-2SC6
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U14 AP2553FDC-7
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component U15 USBLC6-2SC6
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U16 PC817X2NIP0F
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH
+Added Room: Name=PAGE4 - SFP
