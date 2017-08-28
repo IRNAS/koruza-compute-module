@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=* NewDesignator=CON9
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R27 0R
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component R28 0R

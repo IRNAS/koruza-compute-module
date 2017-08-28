@@ -1,0 +1,4 @@
+Added Component: Designator=FB1(CAP0805)
+Added Pin To Net: NetName=GND Pin=FB1-1
+Added Pin To Net: NetName=E_GND Pin=FB1-2
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component FB1 0.15OHM, 1A

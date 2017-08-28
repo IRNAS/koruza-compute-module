@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetR27_1 Pin=R27-1
+Removed Pin From Net: NetName=NetD5_2 Pin=R27-2
+Removed Pin From Net: NetName=NetR28_1 Pin=R28-1
+Removed Pin From Net: NetName=POE_V- Pin=R28-2
+Added Component: Designator=R27(RES1206)
+Added Component: Designator=R28(RES1206)
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetD5_2 Pin=R27-2
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=POE_V- Pin=R28-2

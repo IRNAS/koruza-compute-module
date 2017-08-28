@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=USB_4_N Pin=U13-1
+Removed Pin From Net: NetName=USB_4_P Pin=U13-3
+Removed Pin From Net: NetName=USB_CON_4_P Pin=U13-4
+Removed Pin From Net: NetName=USB_CON_4_N Pin=U13-6
+Removed Pin From Net: NetName=USB_5_N Pin=U15-1
+Removed Pin From Net: NetName=USB_5_P Pin=U15-3
+Removed Pin From Net: NetName=USB_CON_5_P Pin=U15-4
+Removed Pin From Net: NetName=USB_CON_5_N Pin=U15-6
+Added Pin To Net: NetName=USB_4_P Pin=U13-1
+Added Pin To Net: NetName=USB_4_N Pin=U13-3
+Added Pin To Net: NetName=USB_CON_4_N Pin=U13-4
+Added Pin To Net: NetName=USB_CON_4_P Pin=U13-6
+Added Pin To Net: NetName=USB_5_P Pin=U15-1
+Added Pin To Net: NetName=USB_5_N Pin=U15-3
+Added Pin To Net: NetName=USB_CON_5_N Pin=U15-4
+Added Pin To Net: NetName=USB_CON_5_P Pin=U15-6

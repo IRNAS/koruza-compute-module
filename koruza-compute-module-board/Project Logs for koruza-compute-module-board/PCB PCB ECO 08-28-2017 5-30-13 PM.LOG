@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=USB_2_N Pin=U9-1
+Removed Pin From Net: NetName=USB_2_P Pin=U9-3
+Removed Pin From Net: NetName=USB_CON_2_P Pin=U9-4
+Removed Pin From Net: NetName=USB_CON_2_N Pin=U9-6
+Removed Pin From Net: NetName=USB_3_N Pin=U11-1
+Removed Pin From Net: NetName=USB_3_P Pin=U11-3
+Removed Pin From Net: NetName=USB_CON_3_P Pin=U11-4
+Removed Pin From Net: NetName=USB_CON_3_N Pin=U11-6
+Added Pin To Net: NetName=USB_2_P Pin=U9-1
+Added Pin To Net: NetName=USB_2_N Pin=U9-3
+Added Pin To Net: NetName=USB_CON_2_N Pin=U9-4
+Added Pin To Net: NetName=USB_CON_2_P Pin=U9-6
+Added Pin To Net: NetName=USB_3_P Pin=U11-1
+Added Pin To Net: NetName=USB_3_N Pin=U11-3
+Added Pin To Net: NetName=USB_CON_3_N Pin=U11-4
+Added Pin To Net: NetName=USB_CON_3_P Pin=U11-6
+Added Room: Name=PAGE2 - PWR, MODULE
+Added Room: Name=PAGE3 - HUB, USB, ETH
+Added Room: Name=PAGE4 - SFP
