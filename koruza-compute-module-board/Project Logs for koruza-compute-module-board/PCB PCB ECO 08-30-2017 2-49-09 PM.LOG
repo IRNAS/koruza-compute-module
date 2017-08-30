@@ -1,0 +1,27 @@
+Added Component: Designator=JMP1(RES0603)
+Added Pin To Net: NetName=E_GND Pin=JMP1-1
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=CAGE1-21
+Added Pin To Net: NetName=NetCAGE1_21 Pin=JMP1-2
+Added Net: Name=NetCAGE1_21
+Added Member To Class: ClassName=PAGE4 - SFP Member=Component JMP1 smd solder JMP
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component L1 SRN4018-4R7M

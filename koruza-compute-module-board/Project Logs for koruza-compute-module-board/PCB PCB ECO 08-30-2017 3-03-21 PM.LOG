@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=E_GND Pin=JMP1-1
+Removed Pin From Net: NetName=NetCAGE1_21 Pin=JMP1-2
+Added Component: Designator=JMP2(RES0603)
+Added Pin To Net: NetName=NetCAGE1_21 Pin=JMP1-1
+Added Pin To Net: NetName=E_GND Pin=JMP1-2
+Added Pin To Net: NetName=GND Pin=JMP2-1
+Added Pin To Net: NetName=NetCAGE1_22 Pin=CAGE1-22
+Added Pin To Net: NetName=NetCAGE1_22 Pin=JMP2-2
+Added Net: Name=NetCAGE1_22
+Added Member To Class: ClassName=PAGE4 - SFP Member=Component JMP2 smd solder JMP

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GPIO32 Pin=P5-3
+Removed Pin From Net: NetName=GPIO33 Pin=P5-4
+Removed Pin From Net: NetName=GPIO34 Pin=P5-5
+Removed Pin From Net: NetName=GPIO41/RXD1 Pin=P5-6
+Removed Pin From Net: NetName=GND Pin=P5-7
+Removed Pin From Net: NetName=SFP/GPIO44/SDA1 Pin=P5-8
+Removed Pin From Net: NetName=SFP/GPIO45/SCL1 Pin=P5-9
+Removed Pin From Net: NetName=GND Pin=P5-10
+Removed Pin From Net: NetName=5V Pin=R23-1
+Removed Pin From Net: NetName=3V3 Pin=R24-1
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=P5
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R23
+Removed Member From Class: ClassName=PAGE2 - PWR, MODULE Member=R24
+Added Member To Class: ClassName=PAGE3 - HUB, USB, ETH Member=Component C15 10uF
