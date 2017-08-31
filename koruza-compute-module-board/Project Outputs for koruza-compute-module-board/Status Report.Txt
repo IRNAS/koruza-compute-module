@@ -1,14 +1,14 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 10:13:18 AM On 05/13/2017
+Output: koruza_CM_NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCB.PcbDoc]
+   Generated File[testBOM-RoundHoles.TXT]
+   Generated File[testBOM-SlotHoles.TXT]
+   Generated File[testBOM.DRL]
+   Generated File[testBOM.LDP]
+   Generated File[testBOM.DRR]
 
-Output: Bill of Materials
-Type  : BOM
-From  : Project [koruza-compute-module-board.PrjPcb]
-   Generated File[testBOM.xlsx]
 
-
-Files Generated   : 1
+Files Generated   : 5
 Documents Printed : 0
 
-Finished Output Generation At 10:15:07 AM On 05/13/2017
+Finished Output Generation At 8:31:39 AM On 08/31/2017
