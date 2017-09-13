@@ -17,7 +17,7 @@ All comments and suggestions can be added to the [Issues](https://github.com/IRN
 
 ## Licensing
 
-KORUZA Pro Hardware with documentation, including Koruza compute module, is licensed under [CERN OHL v.1.2. license](http://www.ohwr.org/licenses/cern-ohl/v1.2).
+KORUZA Pro Hardware with documentation, including Koruza compute module, is licensed under [CERN OHL v.1.2. license](https://www.ohwr.org/licenses/cern-ohl/license_versions/v1.2).
 
 What this means is that you can use this hardware and documentation without paying a royalty and knowing that you'll be able to use your version forever. You are also free to make changes but if you share these changes then you have to do so on the same conditions that you enjoy.
 
