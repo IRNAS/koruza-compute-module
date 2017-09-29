@@ -13,17 +13,63 @@ Note that the BCM2837 processor is an evolution of the BCM2835 processor. The on
 All three versions of the Raspberry Pi compute module are supproted by the Koruza CM board.
 
 ## Features
+Koruza CM board has many interfaces:
+* GPIO Expansion header
+  * IO pins
+  * 2x UART
+  * I2C
+  * USB (Optional)
+  * 2x SPI
+  * PWM
+  * Power
+* Onboard 3 Amp DC to DC converter
+* Upgrade software over USB
+* MicroSC slot (Only for the Raspberry Pi CM3Lite moodule)
+* Camera connetor
+* Camera Enable Jumper
+* 4x Host USB 2.0
+* Ethernet 10/100 + PoE
+  * Ethernet Bandwidth: 10Base-T/100Base-TX
+  * 24VDC Passive PoE Input
+* SFP Controle connector
+* 24 VDC Power Input
+* ESD protection for USB and Ethernet
 
 ## Block Diagram
+![koruza_cm_block_diagram](https://github.com/IRNAS/koruza-compute-module/blob/board_1.x/pics/koruza_cm_diagram.png)
+
+*Power module block is explained in section "Power supply"
 
 ## Mechanical Specification
+The picture below shows the Koruza CM board dimension, cutouts and holes position. Holes dimensions are 3.2mm in diameter.
+
+The maximum komponent height in the top side of the board is 14mm.
+
+The maximum component height on the underside of the board is 2mm (component pins).
+
+Note that the location and arrangement of components on the Koruza CM board may change slightly
+over time due to revisions for cost and manufacturing considerations; however, maximum component
+heights and PCB thickness and connectors positions will be kept as specified.
+
+![koruza_CM_mechanical](https://github.com/IRNAS/koruza-compute-module/blob/board_1.x/pics/koruza_CM_mechanical.png)
+
 
 ## Power sypply
-  ### Power Diagram
   ### Power Requirements
+  
+Exact power requirements will be heavily dependent upon the individual use case. If an on-chip subsystem is unused, it is usually in a low power state or completely turned off. For instance, if your application does not use 3D graphics then a large part of the core digital logic will never turn on and need power. This is also the case for camera, USB interfaces, video encoders and decoders, and so on.
+
+Powerchain design is critical for stable and reliable operation of the Compute Module. We strongly recommend that designers spend time measuring and verifying power requirements for their particular use case and application, as well as paying careful attention to power supply sequencing and maximum supply voltage tolerance.
+
+Recomended power input for the Koruza CM board is 24VDC 1A. 
+  
+  ### Power Diagram
+  ![koruza_CM_power_diagram](https://github.com/IRNAS/koruza-compute-module/blob/board_1.x/pics/koruza_cm_power_diagram.png)
+  
   
 ## Board peripherials
   ### Ethernet 
+  
   ### USB Port
   ### Camera
   ### MicroSD Card
