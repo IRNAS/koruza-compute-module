@@ -14,6 +14,9 @@ All comments and suggestions can be added to the [Issues](https://github.com/IRN
 ![alt tag](https://github.com/IRNAS/koruza-compute-module/blob/board_0.2/pics/DSC_7144.jpg)
 
 ---
+## Uploding firmware
+
+Connect board via USB and provide power via POE. Run RPiboot and wait for replay. Flash firmware image via Win32. 
 
 ## Licensing
 
