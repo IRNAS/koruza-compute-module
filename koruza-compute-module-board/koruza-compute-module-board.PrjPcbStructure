@@ -1,1 +1,4 @@
-Record=TopLevelDocument|FileName=PAGE1 - CONTENTS.SchDoc
+Record=TopLevelDocument|FileName=PAGE1 - CONTENTS.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=PAGE1 - CONTENTS.SchDoc|FileName=PAGE2 - PWR, MODULE.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=PAGE1 - CONTENTS.SchDoc|FileName=PAGE3 - HUB, USB, ETH.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=PAGE1 - CONTENTS.SchDoc|FileName=PAGE4 - SFP.SchDoc|SheetNumber=4

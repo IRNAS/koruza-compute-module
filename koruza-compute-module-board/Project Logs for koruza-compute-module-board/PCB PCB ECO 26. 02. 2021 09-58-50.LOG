@@ -1,0 +1,284 @@
+Removed Pin From Net: NetName=SFP/GPIO2/SDA1 Pin=CON1-9
+Removed Pin From Net: NetName=SFP/GPIO3/SCL1 Pin=CON1-11
+Removed Pin From Net: NetName=SFP/GPIO44/SDA1 Pin=CON1-82
+Removed Pin From Net: NetName=SFP/GPIO45/SCL1 Pin=CON1-84
+Added Component: Designator=C50(CAP0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance Tolerance"; Value = "± 10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance Tolerance ±"; Value = "± 10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitor Terminals"; Value = "SMD<!--FANDB--><div class="features-and-benefits-container"><div class="features-and-benefits-description"><span class="features-benefits-value">The Murata GRM series capacitors are Multilayer Ceramic Chip Capacitors (MLCC) used for general purpose applications. These MLCC capacitors are classified into temperature compensating and high dielectric constant types depending on the change in electrostatic capacitance due to change in temperature. The temperature compensating capacitors feature a small rate of change in electrostatic capacitance as the temperature changes and are used for applications such as filters and high frequency circuit matching. The high dielectric constant capacitors use materials with a high dielectric constant and feature a large electrostatic capacitance. Typical applications are power supply decoupling and smoothing circuits.</span></div><div class="features-and-benefits-list"><ul class="features-and-benefits-list-list"><li class="features-and-benefits-list-item">Large capacity and small size in a multilayer structure</li><li class="features-and-benefits-list-item">Capacitance value ranging from 0.1pF to 220?F</li><li class="features-and-benefits-list-item">Tin plated external electrodes, excellent solderability</li><li class="features-and-benefits-list-item">Provides good high frequency characteristics</li><li class="features-and-benefits-list-item">Excellent pulse response</li><li class="features-and-benefits-list-item">High reliability</li><li class="features-and-benefits-list-item">Capacitor size varies from 0.4×0.2mm to 5.7×5.0mm</li><li class="features-and-benefits-list-item">Rated voltage of 2.5VDC to 3.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ceramic Capacitor Case"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/2048611.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/2048611.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric Characteristic"; Value = "X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-200006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM188R61H105KAALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MSL"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "85"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.093, 100=0.062, 500=0.0507, 1000=0.0465, 2000=0.0429, 4000=0.0399, 20000=0.0372, 40000=0.0365 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "GRM Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "YES"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "62682"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1845736"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (17-Dec-2015)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50"; VariantName = "[No Variations]"
+Added Component: Designator=C51(CAP0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance Tolerance"; Value = "± 10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ceramic Capacitor Case"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/2189124.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/2189124.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric Characteristic"; Value = "X7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-200005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM188R71C104KA01J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MSL"; Value = "MSL 1 - Unlimited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "125"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.0145, 100=0.0126, 500=0.0081, 2500=0.0059, 5000=0.0052, 10000=0.0046, 50000=0.0036, 100000=0.0035 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "GRM Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "YES"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "18297"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2688519"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (20-Jun-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16"; VariantName = "[No Variations]"
+Added Component: Designator=P5(BM04B-SRSS)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/691305130004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 to 105 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "BM04B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "June 2018"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1679129"; VariantName = "[No Variations]"
+Added Component: Designator=P6(BM04B-SRSS)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/691305130004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 to 105 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "BM04B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "June 2018"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1679129"; VariantName = "[No Variations]"
+Added Component: Designator=R23(RES0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-100003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MCMR06X4701FTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.0085, 100=0.0051, 500=0.0036, 1000=0.0028, 2500=0.0023 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "MCMR Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance Tolerance"; Value = "± 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Case Style"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Element Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y-EX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "218618"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2073509"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (12-Jan-2017)<!--FANDB--><div class="features-and-benefits-container"><div class="features-and-benefits-description"><span class="features-benefits-value">The Multicomp MCMR series resistors are automotive grade, anti sulphured thick film chip resistor. The resistance range includes E24 and E96 decade values from 1ohm to 10Mohm. These resistors are constructed on top of a high grade ceramic body.</span></div><div class="features-and-benefits-list"><ul class="features-and-benefits-list-list"><li class="features-and-benefits-list-item">EIA 0402, 0603, 0805, 1206 chip sizes available</li><li class="features-and-benefits-list-item">High reliability and stability</li><li class="features-and-benefits-list-item">Automotive grade AEC-Q200 compliant</li><li class="features-and-benefits-list-item">Complaint with (IEC 60068-1) 55/155/56 climatic category</li><li class="features-and-benefits-list-item">Maximum operation voltage of 50V, 75V, 150V and 200V</li><li class="features-and-benefits-list-item">Power rating of 62.5mW, 100mW, 125mW and 250mW</li><li class="features-and-benefits-list-item">Available in ±1% and ±5% tolerance</li><li class="features-and-benefits-list-item">Temperature coefficient (TCR) of +200ppm/°C, +100ppm/°C and -200ppm/°C to +400ppm/°C</li><li class="features-and-benefits-list-item">Operating temperature range -55°C to 155"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "± 100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75"; VariantName = "[No Variations]"
+Added Component: Designator=R24(RES0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-100003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MCMR06X4701FTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.0085, 100=0.0051, 500=0.0036, 1000=0.0028, 2500=0.0023 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "MCMR Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance Tolerance"; Value = "± 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Case Style"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Element Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y-EX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "218618"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2073509"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (12-Jan-2017)<!--FANDB--><div class="features-and-benefits-container"><div class="features-and-benefits-description"><span class="features-benefits-value">The Multicomp MCMR series resistors are automotive grade, anti sulphured thick film chip resistor. The resistance range includes E24 and E96 decade values from 1ohm to 10Mohm. These resistors are constructed on top of a high grade ceramic body.</span></div><div class="features-and-benefits-list"><ul class="features-and-benefits-list-list"><li class="features-and-benefits-list-item">EIA 0402, 0603, 0805, 1206 chip sizes available</li><li class="features-and-benefits-list-item">High reliability and stability</li><li class="features-and-benefits-list-item">Automotive grade AEC-Q200 compliant</li><li class="features-and-benefits-list-item">Complaint with (IEC 60068-1) 55/155/56 climatic category</li><li class="features-and-benefits-list-item">Maximum operation voltage of 50V, 75V, 150V and 200V</li><li class="features-and-benefits-list-item">Power rating of 62.5mW, 100mW, 125mW and 250mW</li><li class="features-and-benefits-list-item">Available in ±1% and ±5% tolerance</li><li class="features-and-benefits-list-item">Temperature coefficient (TCR) of +200ppm/°C, +100ppm/°C and -200ppm/°C to +400ppm/°C</li><li class="features-and-benefits-list-item">Operating temperature range -55°C to 155"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "± 100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75"; VariantName = "[No Variations]"
+Added Component: Designator=R68(RES0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-100003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MCMR06X4701FTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.0085, 100=0.0051, 500=0.0036, 1000=0.0028, 2500=0.0023 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "MCMR Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance Tolerance"; Value = "± 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Case Style"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Element Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y-EX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "218618"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2073509"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (12-Jan-2017)<!--FANDB--><div class="features-and-benefits-container"><div class="features-and-benefits-description"><span class="features-benefits-value">The Multicomp MCMR series resistors are automotive grade, anti sulphured thick film chip resistor. The resistance range includes E24 and E96 decade values from 1ohm to 10Mohm. These resistors are constructed on top of a high grade ceramic body.</span></div><div class="features-and-benefits-list"><ul class="features-and-benefits-list-list"><li class="features-and-benefits-list-item">EIA 0402, 0603, 0805, 1206 chip sizes available</li><li class="features-and-benefits-list-item">High reliability and stability</li><li class="features-and-benefits-list-item">Automotive grade AEC-Q200 compliant</li><li class="features-and-benefits-list-item">Complaint with (IEC 60068-1) 55/155/56 climatic category</li><li class="features-and-benefits-list-item">Maximum operation voltage of 50V, 75V, 150V and 200V</li><li class="features-and-benefits-list-item">Power rating of 62.5mW, 100mW, 125mW and 250mW</li><li class="features-and-benefits-list-item">Available in ±1% and ±5% tolerance</li><li class="features-and-benefits-list-item">Temperature coefficient (TCR) of +200ppm/°C, +100ppm/°C and -200ppm/°C to +400ppm/°C</li><li class="features-and-benefits-list-item">Operating temperature range -55°C to 155"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "± 100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75"; VariantName = "[No Variations]"
+Added Component: Designator=R69(RES0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-100003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MCMR06X4701FTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.0085, 100=0.0051, 500=0.0036, 1000=0.0028, 2500=0.0023 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "MCMR Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance Tolerance"; Value = "± 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Case Style"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Element Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y-EX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "218618"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2073509"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (12-Jan-2017)<!--FANDB--><div class="features-and-benefits-container"><div class="features-and-benefits-description"><span class="features-benefits-value">The Multicomp MCMR series resistors are automotive grade, anti sulphured thick film chip resistor. The resistance range includes E24 and E96 decade values from 1ohm to 10Mohm. These resistors are constructed on top of a high grade ceramic body.</span></div><div class="features-and-benefits-list"><ul class="features-and-benefits-list-list"><li class="features-and-benefits-list-item">EIA 0402, 0603, 0805, 1206 chip sizes available</li><li class="features-and-benefits-list-item">High reliability and stability</li><li class="features-and-benefits-list-item">Automotive grade AEC-Q200 compliant</li><li class="features-and-benefits-list-item">Complaint with (IEC 60068-1) 55/155/56 climatic category</li><li class="features-and-benefits-list-item">Maximum operation voltage of 50V, 75V, 150V and 200V</li><li class="features-and-benefits-list-item">Power rating of 62.5mW, 100mW, 125mW and 250mW</li><li class="features-and-benefits-list-item">Available in ±1% and ±5% tolerance</li><li class="features-and-benefits-list-item">Temperature coefficient (TCR) of +200ppm/°C, +100ppm/°C and -200ppm/°C to +400ppm/°C</li><li class="features-and-benefits-list-item">Operating temperature range -55°C to 155"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "± 100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RES0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-100003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MCMR06X4701FTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.0085, 100=0.0051, 500=0.0036, 1000=0.0028, 2500=0.0023 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "MCMR Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance Tolerance"; Value = "± 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Case Style"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Element Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y-EX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "218618"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2073509"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (12-Jan-2017)<!--FANDB--><div class="features-and-benefits-container"><div class="features-and-benefits-description"><span class="features-benefits-value">The Multicomp MCMR series resistors are automotive grade, anti sulphured thick film chip resistor. The resistance range includes E24 and E96 decade values from 1ohm to 10Mohm. These resistors are constructed on top of a high grade ceramic body.</span></div><div class="features-and-benefits-list"><ul class="features-and-benefits-list-list"><li class="features-and-benefits-list-item">EIA 0402, 0603, 0805, 1206 chip sizes available</li><li class="features-and-benefits-list-item">High reliability and stability</li><li class="features-and-benefits-list-item">Automotive grade AEC-Q200 compliant</li><li class="features-and-benefits-list-item">Complaint with (IEC 60068-1) 55/155/56 climatic category</li><li class="features-and-benefits-list-item">Maximum operation voltage of 50V, 75V, 150V and 200V</li><li class="features-and-benefits-list-item">Power rating of 62.5mW, 100mW, 125mW and 250mW</li><li class="features-and-benefits-list-item">Available in ±1% and ±5% tolerance</li><li class="features-and-benefits-list-item">Temperature coefficient (TCR) of +200ppm/°C, +100ppm/°C and -200ppm/°C to +400ppm/°C</li><li class="features-and-benefits-list-item">Operating temperature range -55°C to 155"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "± 100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RES0603)
+Add component (AddParameter): Name = "Automotive Qualification Standard"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/1716707.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IRNAS Part No."; Value = "I-100003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MCMR06X4701FTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "10=0.0085, 100=0.0051, 500=0.0036, 1000=0.0028, 2500=0.0023 (GBP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "MCMR Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance Tolerance"; Value = "± 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Case Style"; Value = "0603 [1608 Metric]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Element Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y-EX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "218618"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2073509"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "No SVHC (12-Jan-2017)<!--FANDB--><div class="features-and-benefits-container"><div class="features-and-benefits-description"><span class="features-benefits-value">The Multicomp MCMR series resistors are automotive grade, anti sulphured thick film chip resistor. The resistance range includes E24 and E96 decade values from 1ohm to 10Mohm. These resistors are constructed on top of a high grade ceramic body.</span></div><div class="features-and-benefits-list"><ul class="features-and-benefits-list-list"><li class="features-and-benefits-list-item">EIA 0402, 0603, 0805, 1206 chip sizes available</li><li class="features-and-benefits-list-item">High reliability and stability</li><li class="features-and-benefits-list-item">Automotive grade AEC-Q200 compliant</li><li class="features-and-benefits-list-item">Complaint with (IEC 60068-1) 55/155/56 climatic category</li><li class="features-and-benefits-list-item">Maximum operation voltage of 50V, 75V, 150V and 200V</li><li class="features-and-benefits-list-item">Power rating of 62.5mW, 100mW, 125mW and 250mW</li><li class="features-and-benefits-list-item">Available in ±1% and ±5% tolerance</li><li class="features-and-benefits-list-item">Temperature coefficient (TCR) of +200ppm/°C, +100ppm/°C and -200ppm/°C to +400ppm/°C</li><li class="features-and-benefits-list-item">Operating temperature range -55°C to 155"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "± 100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75"; VariantName = "[No Variations]"
+Added Component: Designator=U17(HVQFN16)
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "PCA9546ABS,118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2775989"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C50-1
+Added Pin To Net: NetName=3V3 Pin=C50-2
+Added Pin To Net: NetName=GND Pin=C51-1
+Added Pin To Net: NetName=3V3 Pin=C51-2
+Added Pin To Net: NetName=GND Pin=P5-0
+Added Pin To Net: NetName=GND Pin=P5-0
+Added Pin To Net: NetName=GND Pin=P5-1
+Added Pin To Net: NetName=3V3 Pin=P5-2
+Added Pin To Net: NetName=GND Pin=P6-0
+Added Pin To Net: NetName=GND Pin=P6-0
+Added Pin To Net: NetName=GND Pin=P6-1
+Added Pin To Net: NetName=3V3 Pin=P6-2
+Added Pin To Net: NetName=3V3 Pin=R23-2
+Added Pin To Net: NetName=3V3 Pin=R24-2
+Added Pin To Net: NetName=3V3 Pin=R68-2
+Added Pin To Net: NetName=3V3 Pin=R69-2
+Added Pin To Net: NetName=3V3 Pin=R70-2
+Added Pin To Net: NetName=3V3 Pin=R71-2
+Added Pin To Net: NetName=SFP/GPIO45/SCL1 Pin=U17-2
+Added Pin To Net: NetName=SFP/GPIO44/SDA1 Pin=U17-3
+Added Pin To Net: NetName=SFP/GPIO2/SDA1 Pin=U17-4
+Added Pin To Net: NetName=SFP/GPIO3/SCL1 Pin=U17-5
+Added Pin To Net: NetName=GND Pin=U17-6
+Added Pin To Net: NetName=3V3 Pin=U17-14
+Added Pin To Net: NetName=GPIO2 Pin=CON1-9
+Added Net: Name=GPIO2
+Added Pin To Net: NetName=GPIO3 Pin=CON1-11
+Added Net: Name=GPIO3
+Added Pin To Net: NetName=RPI_SCL1 Pin=CON1-84
+Added Pin To Net: NetName=RPI_SCL1 Pin=R24-1
+Added Pin To Net: NetName=RPI_SCL1 Pin=U17-12
+Added Net: Name=RPI_SCL1
+Added Pin To Net: NetName=RPI_SDA1 Pin=CON1-82
+Added Pin To Net: NetName=RPI_SDA1 Pin=R23-1
+Added Pin To Net: NetName=RPI_SDA1 Pin=U17-13
+Added Net: Name=RPI_SDA1
+Added Pin To Net: NetName=SCL02 Pin=P5-4
+Added Pin To Net: NetName=SCL02 Pin=R69-1
+Added Pin To Net: NetName=SCL02 Pin=U17-8
+Added Net: Name=SCL02
+Added Pin To Net: NetName=SCL03 Pin=P6-4
+Added Pin To Net: NetName=SCL03 Pin=R71-1
+Added Pin To Net: NetName=SCL03 Pin=U17-10
+Added Net: Name=SCL03
+Added Pin To Net: NetName=SDA02 Pin=P5-3
+Added Pin To Net: NetName=SDA02 Pin=R68-1
+Added Pin To Net: NetName=SDA02 Pin=U17-7
+Added Net: Name=SDA02
+Added Pin To Net: NetName=SDA03 Pin=P6-3
+Added Pin To Net: NetName=SDA03 Pin=R70-1
+Added Pin To Net: NetName=SDA03 Pin=U17-9
+Added Net: Name=SDA03
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C50 1uF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component C51 100nF
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P5 BM04B-SRSS-TB(LF)(SN)
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component P6 BM04B-SRSS-TB(LF)(SN)
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R23 4k7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R24 4k7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R68 4k7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R69 4k7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R70 4k7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component R71 4k7
+Added Member To Class: ClassName=PAGE2 - PWR, MODULE Member=Component U17 PCA9546ABS

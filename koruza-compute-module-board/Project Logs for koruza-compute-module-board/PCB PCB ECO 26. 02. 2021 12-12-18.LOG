@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=U17-0
+Added Pin To Net: NetName=I2C_SW_RESET Pin=CON1-9
+Added Pin To Net: NetName=I2C_SW_RESET Pin=U17-1
+Added Net: Name=I2C_SW_RESET
