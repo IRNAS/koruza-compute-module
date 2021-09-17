@@ -214,125 +214,33 @@ DocumentUniqueId=
 DocumentPath=Project Outputs for koruza-compute-module-board\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\NC Drill\Koruza_V1.1-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\NC Drill\Koruza_V1.1-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\NC Drill\Koruza_V1.1.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\NC Drill\Koruza_V1.1.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.G1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.G2
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\NC Drill\Koruza_V1.1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_GERBER_&_NC_DRILL\Gerber\Koruza_V1.1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_3D\Koruza_V1.1_3D STEP.step
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_BOM\Koruza_V1.1_BOM.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=04_OUTPUT_FILES\Koruza_V1.1_PICK & PLACE\Koruza_V1.1_PICK & PLACE.csv
-DItemRevisionGUID=
-
 [Parameter1]
-Name=Website
-Value=URL
+Name=Company
+Value=IRNAS
 
 [Parameter2]
-Name=Version
-Value=V1.3
+Name=CreateDate
+Value=09.03.2017
 
 [Parameter3]
-Name=RevisionDate
-Value=15.03.2021
+Name=PCBDesigner
+Value=Aleksej Cegner
 
 [Parameter4]
 Name=ProjectTitle
 Value=Koruza
 
 [Parameter5]
-Name=PCBDesigner
-Value=Aleksej Cegner
+Name=RevisionDate
+Value=15.03.2021
 
 [Parameter6]
-Name=CreateDate
-Value=09.03.2017
+Name=Version
+Value=V1.3
 
 [Parameter7]
-Name=Company
-Value=IRNAS
+Name=Website
+Value=URL
 
 [Configuration1]
 Name=Default Configuration

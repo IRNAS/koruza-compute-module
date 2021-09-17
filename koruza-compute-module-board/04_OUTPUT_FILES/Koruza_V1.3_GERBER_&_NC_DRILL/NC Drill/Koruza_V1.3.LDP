@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Synology Drive\IRNAS-Projects\KORUZA\KORUZA-Electronics\koruza-compute-module-board\PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=koruza_v1.3-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=koruza_v1.3-slotholes.txt|DrillLayers=gtl,g1,g2,gbl

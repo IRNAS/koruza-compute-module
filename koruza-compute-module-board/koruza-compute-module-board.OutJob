@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=koruza-compute-module-board.OutJob
+Name=
 Description=
 TargetOutputMedium=01 - Gerber, NC Drill
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Canon MB2100 series Printer
+TargetPrinter=Rajko
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print To MPC2050.sr
 OutputMedium1_Type=Printer
@@ -437,7 +437,7 @@ OutputEnabled10_OutputMedium10=0
 OutputEnabled10_OutputMedium11=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908292~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\Synology Drive\IRNAS-Projects\KORUZA\KORUZA-Electronics\PCB.PcbDoc
+Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908293~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\Synology Drive\IRNAS-Projects\KORUZA\KORUZA-Electronics\koruza-compute-module-board\PCB.PcbDoc
 OutputType11=NC Drill
 OutputName11=NC Drill Files
 OutputCategory11=Fabrication
@@ -593,7 +593,7 @@ MarkNetLabels2=1
 MarkPortsId2=1
 WebOutputMediumType2=FS
 OutputDirectory2=\\elrad-fas\gregors\Moji dokumenti\altium\Project Outputs for Elrad_PCB_Project_Template\WebOutput
-OutputFilePath3=D:\Synology Drive\IRNAS-Projects\SmartParks\Smartparks - RhinoEdge\Electronics\RhinoEdge\04_OUTPUT_FILES\RhinoEdge Tracker_V1.0_GERBER_&_NC_DRILL\
+OutputFilePath3=D:\Synology Drive\IRNAS-Projects\KORUZA\KORUZA-Electronics\koruza-compute-module-board\04_OUTPUT_FILES\Koruza_V1.3_GERBER_&_NC_DRILL\
 ReleaseManaged3=0
 OutputBasePath3=04_OUTPUT_FILES\
 OutputPathMedia3==ProjectTitle+'_'+Version+'_GERBER_&_NC_DRILL'
@@ -757,7 +757,7 @@ OpenOutput11=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=
 OpenOutputs2=1
-RelativeOutputPath3=D:\Synology Drive\IRNAS-Projects\SmartParks\Smartparks - RhinoEdge\Electronics\RhinoEdge\04_OUTPUT_FILES\RhinoEdge Tracker_V1.0_GERBER_&_NC_DRILL\
+RelativeOutputPath3=D:\Synology Drive\IRNAS-Projects\KORUZA\KORUZA-Electronics\koruza-compute-module-board\04_OUTPUT_FILES\Koruza_V1.3_GERBER_&_NC_DRILL\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
